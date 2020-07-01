@@ -1,4 +1,3 @@
-[EN](./thread_local_storage.md) | [ZH](./thread_local_storage-zh.md)
 # Thread Local Storage(TLS)
 
 

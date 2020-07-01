@@ -1,4 +1,3 @@
-[EN](./python-sandbox-escape.md) | [ZH](./python-sandbox-escape-zh.md)
 
 # Python sandbox
 The so-called Python sandbox, in a certain way to simulate the Python terminal, to achieve user use of Python.

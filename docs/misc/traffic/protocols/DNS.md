@@ -1,4 +1,3 @@
-[EN](./DNS.md) | [ZH](./DNS-zh.md)
 ### DNS
 
 

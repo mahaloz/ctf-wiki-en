@@ -1,4 +1,3 @@
-[EN](./sqli.md) | [ZH](./sqli-zh.md)
 ## basic concept
 
 

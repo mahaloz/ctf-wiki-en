@@ -1,4 +1,3 @@
-[EN](./overview.md) | [ZH](./overview-zh.md)
 #格概要
 
 

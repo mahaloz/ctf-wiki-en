@@ -1,4 +1,3 @@
-[EN](./get-address.md) | [ZH](./get-address-zh.md)
 # Get address
 
 

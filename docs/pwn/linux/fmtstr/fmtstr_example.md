@@ -1,4 +1,3 @@
-[EN](./fmtstr_example.md) | [ZH](./fmtstr_example-zh.md)
 #Format string vulnerability example
 
 

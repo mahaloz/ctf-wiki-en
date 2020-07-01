@@ -1,4 +1,3 @@
-[EN](./program-loading.md) | [ZH](./program-loading-zh.md)
 ## Loading
 
 

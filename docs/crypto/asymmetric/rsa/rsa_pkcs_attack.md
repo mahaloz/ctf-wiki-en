@@ -1,4 +1,3 @@
-[EN](./rsa_pkcs_attack.md) | [ZH](./rsa_pkcs_attack-zh.md)
 # Bleichenbacher&#39;s attack
 
 

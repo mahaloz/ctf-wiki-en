@@ -1,4 +1,3 @@
-[EN](./readme.md) | [ZH](./readme-zh.md)
 Outline some directions of pwn, as well as ideas.
 
 

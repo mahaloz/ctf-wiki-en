@@ -1,4 +1,3 @@
-[EN](./misc.md) | [ZH](./misc-zh.md)
 #测试支持
 
 

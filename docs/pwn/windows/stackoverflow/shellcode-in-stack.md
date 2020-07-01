@@ -1,4 +1,3 @@
-[EN](./shellcode-in-stack.md) | [ZH](./shellcode-in-stack-zh.md)
 #Execute Shellcode
 
 

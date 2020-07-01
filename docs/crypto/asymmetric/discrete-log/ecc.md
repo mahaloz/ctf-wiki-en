@@ -1,4 +1,3 @@
-[EN](./ecc.md) | [ZH](./ecc-zh.md)
 
 
 

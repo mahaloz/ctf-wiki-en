@@ -1,4 +1,3 @@
-[EN](./sha1.md) | [ZH](./sha1-zh.md)
 # SHA1
 
 

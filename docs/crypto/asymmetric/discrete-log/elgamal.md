@@ -1,4 +1,3 @@
-[EN](./elgamal.md) | [ZH](./elgamal-zh.md)
 # ElGamal
 
 

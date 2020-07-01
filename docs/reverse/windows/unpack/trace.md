@@ -1,4 +1,3 @@
-[EN](./trace.md) | [ZH](./trace-zh.md)
 The principle of the single-step tracking method is to go through the steps of (F8), step (F7) and run to (F4) of Ollydbg, completely go through the self-shelling process of the program, skip some fragments of the loop recovery code, and use the single Step to ensure that the program will not skip OEP. This way, after the software auto-hull module is finished running, it will reach OEP and dump the program.
 
 

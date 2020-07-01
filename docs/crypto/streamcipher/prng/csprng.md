@@ -1,4 +1,3 @@
-[EN](./csprng.md) | [ZH](./csprng-zh.md)
 #密码安全 pseudo-random number generator
 
 

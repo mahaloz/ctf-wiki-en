@@ -1,4 +1,3 @@
-[EN](./get-shell.md) | [ZH](./get-shell-zh.md)
 # shell Get a summary
 
 

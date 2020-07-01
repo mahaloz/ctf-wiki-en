@@ -1,4 +1,3 @@
-[EN](./bit-attack.md) | [ZH](./bit-attack-zh.md)
 #比特攻
 
 

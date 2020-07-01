@@ -1,4 +1,3 @@
-[EN](./USB.md) | [ZH](./USB-zh.md)
 ### USB
 
 

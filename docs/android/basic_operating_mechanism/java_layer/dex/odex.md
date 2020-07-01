@@ -1,4 +1,3 @@
-[EN](./odex.md) | [ZH](./odex-zh.md)
 # ODEX file
 
 

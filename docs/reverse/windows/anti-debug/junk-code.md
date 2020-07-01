@@ -1,4 +1,3 @@
-[EN](./junk-code.md) | [ZH](./junk-code-zh.md)
 ## Principle
 
 

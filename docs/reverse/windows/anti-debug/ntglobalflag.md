@@ -1,4 +1,3 @@
-[EN](./ntglobalflag.md) | [ZH](./ntglobalflag-zh.md)
 ## About NtGlobalFlag
 
 

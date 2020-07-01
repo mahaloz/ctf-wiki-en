@@ -1,4 +1,3 @@
-[EN](./fmtstr_intro.md) | [ZH](./fmtstr_intro-zh.md)
 #Format string vulnerability principle introduction
 
 

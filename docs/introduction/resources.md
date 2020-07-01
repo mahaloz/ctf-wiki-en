@@ -1,4 +1,3 @@
-[EN](./resources.md) | [ZH](./resources-zh.md)
 ## e-learning
 
 

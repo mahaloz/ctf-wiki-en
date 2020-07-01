@@ -1,4 +1,3 @@
-[EN](./overview.md) | [ZH](./overview-zh.md)
 # Android Reverse Basic Introduction
 
 

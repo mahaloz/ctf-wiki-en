@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 With the birth of a series of new Internet products such as WEB 2.0, social network, Weibo, etc., Internet applications based on WEB environment are more and more extensive. In the process of enterprise informationization, various applications are set up on WEB platform, WEB business. The rapid development has also aroused strong concern of hackers. What followed is the emergence of WEB security threats. Hackers use the vulnerability of the operating system and the vulnerability of the WEB service program to gain control of the WEB server, and tamper with the content of the webpage. Stealing important internal data, and more serious, is to embed malicious code in web pages, causing website visitors to be compromised.
 
 

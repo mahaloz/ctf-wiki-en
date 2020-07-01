@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 Cryptography can generally be divided into classical cryptography and modern cryptography.
 
 

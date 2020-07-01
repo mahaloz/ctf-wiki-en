@@ -1,4 +1,3 @@
-[EN](./running-overview.md) | [ZH](./running-overview-zh.md)
 ## Program execution process
 
 

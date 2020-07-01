@@ -1,4 +1,3 @@
-[EN](./md5.md) | [ZH](./md5-zh.md)
 # MD5
 
 

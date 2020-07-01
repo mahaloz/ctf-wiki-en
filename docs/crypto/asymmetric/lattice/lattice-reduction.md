@@ -1,4 +1,3 @@
-[EN](./lattice-reduction.md) | [ZH](./lattice-reduction-zh.md)
 
 #格基规约
 

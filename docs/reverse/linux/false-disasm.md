@@ -1,4 +1,3 @@
-[EN](./false-disasm.md) | [ZH](./false-disasm-zh.md)
 For some common disassemblers, such as `objdump`, or disassembler projects based on `objdump`, there are some disassembly flaws. There are ways to make `objdump` disassemble the code, not so Accurate.
 
 

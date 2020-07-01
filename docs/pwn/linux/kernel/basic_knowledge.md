@@ -1,4 +1,3 @@
-[EN](./basic_knowledge.md) | [ZH](./basic_knowledge-zh.md)
 Introduce some basic knowledge that Linux kernel pwn will use, and will gradually add it later.
 
 

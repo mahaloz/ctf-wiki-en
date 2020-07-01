@@ -1,4 +1,3 @@
-[EN](./challenge.md) | [ZH](./challenge-zh.md)
 #题
 
 

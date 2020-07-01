@@ -1,4 +1,3 @@
-[EN](./environment.md) | [ZH](./environment-zh.md)
 # 环境搭建
 
 

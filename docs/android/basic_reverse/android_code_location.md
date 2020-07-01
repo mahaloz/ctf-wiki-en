@@ -1,4 +1,3 @@
-[EN](./android_code_location.md) | [ZH](./android_code_location-zh.md)
 # Android key code positioning
 
 

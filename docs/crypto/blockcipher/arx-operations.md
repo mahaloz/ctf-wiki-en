@@ -1,4 +1,3 @@
-[EN](./arx-operations.md) | [ZH](./arx-operations-zh.md)
 # Add-Rotate-Xor
 
 

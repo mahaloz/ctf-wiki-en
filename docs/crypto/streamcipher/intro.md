@@ -1,4 +1,3 @@
-[EN](./intro.md) | [ZH](./intro-zh.md)
 #流密码
 
 

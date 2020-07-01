@@ -1,4 +1,3 @@
-[EN](./problem.md) | [ZH](./problem-zh.md)
 #题
 
 

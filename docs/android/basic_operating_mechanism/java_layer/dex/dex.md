@@ -1,4 +1,3 @@
-[EN](./dex.md) | [ZH](./dex-zh.md)
 # DEX file
 
 

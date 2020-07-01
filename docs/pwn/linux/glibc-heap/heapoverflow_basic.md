@@ -1,4 +1,3 @@
-[EN](./heapoverflow_basic.md) | [ZH](./heapoverflow_basic-zh.md)
 # Heap Overflow
 
 

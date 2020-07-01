@@ -1,4 +1,3 @@
-[EN](./house_of_einherjar.md) | [ZH](./house_of_einherjar-zh.md)
 
 #  House Of Einherjar
 

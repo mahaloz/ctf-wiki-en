@@ -1,4 +1,3 @@
-[EN](./java-example.md) | [ZH](./java-example-zh.md)
 # static analysis java layer example
 
 

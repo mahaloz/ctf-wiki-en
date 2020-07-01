@@ -1,4 +1,3 @@
-[EN](./basic.md) | [ZH](./basic-zh.md)
 # 基本操作
 
 

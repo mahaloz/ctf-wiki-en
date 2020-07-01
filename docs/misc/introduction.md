@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 Misc is the first four letters of English Miscellaneous, miscellaneous, mixed, and hodgepodge.
 
 

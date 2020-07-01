@@ -1,4 +1,3 @@
-[EN](./fsop.md) | [ZH](./fsop-zh.md)
 # FSOP
 
 

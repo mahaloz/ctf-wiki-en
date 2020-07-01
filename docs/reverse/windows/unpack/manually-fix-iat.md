@@ -1,4 +1,3 @@
-[EN](./manually-fix-iat.md) | [ZH](./manually-fix-iat-zh.md)
 The sample program can be downloaded from this link: [manually_fix_iat.zip](https://github.com/ctf-wiki/ctf-challenges/blob/master/reverse/unpack/example/manually_fix_iat.zip)
 
 

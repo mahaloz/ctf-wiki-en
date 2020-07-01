@@ -1,4 +1,3 @@
-[EN](./isdebuggerpresent.md) | [ZH](./isdebuggerpresent-zh.md)
 ## About IsDebuggerPresent
 
 

@@ -1,4 +1,3 @@
-[EN](./heap-flags.md) | [ZH](./heap-flags-zh.md)
 ## About Heap flags
 
 

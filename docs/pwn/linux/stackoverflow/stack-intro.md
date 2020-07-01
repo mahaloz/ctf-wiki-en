@@ -1,4 +1,3 @@
-[EN](./stack-intro.md) | [ZH](./stack-intro-zh.md)
 #栈介绍
 
 

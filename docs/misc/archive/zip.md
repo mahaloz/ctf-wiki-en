@@ -1,4 +1,3 @@
-[EN](./zip.md) | [ZH](./zip-zh.md)
 ## File Structure
 
 

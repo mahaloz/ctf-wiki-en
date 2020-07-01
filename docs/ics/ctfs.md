@@ -1,4 +1,3 @@
-[EN](./ctfs.md) | [ZH](./ctfs-zh.md)
 &gt; The content of this column, the content of the ICS CTF competition comes from the author&#39;s own experience in playing the game. If it is not right, please criticize and correct the teacher.
 
 

@@ -1,4 +1,3 @@
-[EN](./basic-rop.md) | [ZH](./basic-rop-zh.md)
 # 基本ROP
 
 

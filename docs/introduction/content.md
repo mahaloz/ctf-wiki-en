@@ -1,4 +1,3 @@
-[EN](./content.md) | [ZH](./content-zh.md)
 Because the scope of the CTF&#39;s questions is actually quite broad, there is currently no clear definition of what to say. However, in terms of current game questions, it is mainly based on common **Web network attack and defense, RE reverse engineering, Pwn binary exploit, Crypto password attack, Mobile.
 Mobile Security** and **Misc Security Miscellaneous** are used for categorization.
 

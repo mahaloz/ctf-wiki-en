@@ -1,4 +1,3 @@
-[EN](./mode.md) | [ZH](./mode-zh.md)
 
 ## Problem Solving Mode - Jeopardy
 

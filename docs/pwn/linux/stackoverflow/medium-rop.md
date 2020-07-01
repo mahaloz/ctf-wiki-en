@@ -1,4 +1,3 @@
-[EN](./medium-rop.md) | [ZH](./medium-rop-zh.md)
 #中级ROP
 
 

@@ -1,4 +1,3 @@
-[EN](./ecb.md) | [ZH](./ecb-zh.md)
 # ECB
 
 

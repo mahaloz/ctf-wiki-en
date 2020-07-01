@@ -1,4 +1,3 @@
-[EN](./bypass_smep.md) | [ZH](./bypass_smep-zh.md)
 # bypass-smep
 
 ## SMEP

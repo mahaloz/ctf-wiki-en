@@ -1,4 +1,3 @@
-[EN](./double-fetch.md) | [ZH](./double-fetch-zh.md)
 
 
 # Double Fetch

@@ -1,4 +1,3 @@
-[EN](./HTTP.md) | [ZH](./HTTP-zh.md)
 ### HTTP
 
 

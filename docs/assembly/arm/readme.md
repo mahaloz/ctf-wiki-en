@@ -1,4 +1,3 @@
-[EN](./readme.md) | [ZH](./readme-zh.md)
 Introduce the basic content of arm.
 
 

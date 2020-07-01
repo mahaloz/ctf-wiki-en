@@ -1,4 +1,3 @@
-[EN](./unsorted_bin_attack.md) | [ZH](./unsorted_bin_attack-zh.md)
 
 # Unsorted Bin Attack
 

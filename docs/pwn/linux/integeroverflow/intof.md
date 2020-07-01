@@ -1,4 +1,3 @@
-[EN](./intof.md) | [ZH](./intof-zh.md)
 
 # integer overflow
 

@@ -1,4 +1,3 @@
-[EN](./computer.md) | [ZH](./computer-zh.md)
 
 This section describes some computer related coding.
 

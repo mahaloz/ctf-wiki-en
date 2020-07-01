@@ -1,4 +1,3 @@
-[EN](./rar.md) | [ZH](./rar-zh.md)
 ## file format
 
 

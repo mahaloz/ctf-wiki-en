@@ -1,4 +1,3 @@
-[EN](./FTP.md) | [ZH](./FTP-zh.md)
 ### FTP
 
 

@@ -1,4 +1,3 @@
-[EN](./rc4.md) | [ZH](./rc4-zh.md)
 # RC4
 
 

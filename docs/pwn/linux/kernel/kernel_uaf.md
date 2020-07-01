@@ -1,4 +1,3 @@
-[EN](./kernel_uaf.md) | [ZH](./kernel_uaf-zh.md)
 ## kernel UAF
 
 

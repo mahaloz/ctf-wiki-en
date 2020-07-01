@@ -1,4 +1,3 @@
-[EN](./meet-in-the-middle.md) | [ZH](./meet-in-the-middle-zh.md)
 #中遇遇攻击- MITM
 
 

@@ -1,4 +1,3 @@
-[EN](./detect-bp.md) | [ZH](./detect-bp-zh.md)
 Gdb implements a breakpoint by replacing the byte of the destination address with `0xcc`. Here is a simple example of detecting the `int 3` breakpoint:
 
 

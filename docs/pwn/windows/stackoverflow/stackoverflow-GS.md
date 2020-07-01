@@ -1,4 +1,3 @@
-# GS(Buffer Security Check)
 ## Introduction
 正如Linux中存在栈溢出的防护机制 Canary 一样，windows 中也存在类似的机制。与 Canary 的思想一致，GS 也是在栈中插入一个值，当函数返回之时检测 GS 的值是否经过了改变，以此来判断 stack/buffer overflow 是否发生。
 

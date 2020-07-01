@@ -1,4 +1,3 @@
-[EN](./ptmalloc_check.md) | [ZH](./ptmalloc_check-zh.md)
 #堆 in the heap
 
 

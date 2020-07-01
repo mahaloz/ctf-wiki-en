@@ -1,4 +1,3 @@
-[EN](./pcbc.md) | [ZH](./pcbc-zh.md)
 # PCBC
 
 

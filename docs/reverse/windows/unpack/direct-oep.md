@@ -1,4 +1,3 @@
-[EN](./direct-oep.md) | [ZH](./direct-oep-zh.md)
 The so-called one-step OEP shelling method is based on the characteristics of the shelling, looking for the assembly instruction closest to OEP, then the int3 breakpoint, and the dump program when the program goes to OEP.
 
 

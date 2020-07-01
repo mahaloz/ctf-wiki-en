@@ -1,4 +1,3 @@
-[EN](./detect-dbg.md) | [ZH](./detect-dbg-zh.md)
 There are many ways to detect the debugger, such as detecting the process name. Here we introduce a method to detect whether the program is currently being debugged by detecting the call of some functions.
 
 

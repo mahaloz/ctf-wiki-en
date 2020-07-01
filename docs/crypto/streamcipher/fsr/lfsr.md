@@ -1,4 +1,3 @@
-[EN](./lfsr.md) | [ZH](./lfsr-zh.md)
 # Linear Feedback Shift Register - LFSR
 
 

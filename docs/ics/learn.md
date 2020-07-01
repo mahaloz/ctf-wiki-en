@@ -1,4 +1,3 @@
-[EN](./learn.md) | [ZH](./learn-zh.md)
 &gt;EscortLab collects and organizes a series of related IoT data for everyone to learn
 
 

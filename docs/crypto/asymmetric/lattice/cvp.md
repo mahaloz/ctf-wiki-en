@@ -1,4 +1,3 @@
-[EN](./cvp.md) | [ZH](./cvp-zh.md)
 # CVP
 
 

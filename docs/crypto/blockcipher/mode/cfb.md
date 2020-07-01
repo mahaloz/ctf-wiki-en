@@ -1,4 +1,3 @@
-[EN](./cfb.md) | [ZH](./cfb-zh.md)
 # CFB
 
 

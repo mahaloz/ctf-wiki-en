@@ -1,4 +1,3 @@
-[EN](./prefix.md) | [ZH](./prefix-zh.md)
 In most CTF competitions, both forensics and steganography are inseparable, and the knowledge required for the two complement each other, so the two will be introduced here.
 
 

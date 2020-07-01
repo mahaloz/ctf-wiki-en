@@ -1,4 +1,3 @@
-[EN](./jpg.md) | [ZH](./jpg-zh.md)
 ## File Structure
 
 

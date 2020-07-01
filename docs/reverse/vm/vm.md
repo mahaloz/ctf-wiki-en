@@ -1,4 +1,3 @@
-[EN](./vm.md) | [ZH](./vm-zh.md)
 #Virtual machine analysis
 
 

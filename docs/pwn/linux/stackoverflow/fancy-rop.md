@@ -1,4 +1,3 @@
-[EN](./fancy-rop.md) | [ZH](./fancy-rop-zh.md)
 #花式溢溢技巧
 
 

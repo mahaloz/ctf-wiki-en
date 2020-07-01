@@ -1,4 +1,3 @@
-[EN](./WIFI.md) | [ZH](./WIFI-zh.md)
 ### WIFI
 
 

@@ -1,4 +1,3 @@
-[EN](./the-heap.md) | [ZH](./the-heap-zh.md)
 When the heap is initialized, it will check `heap flags` and make additional changes to the environment depending on the presence or absence of some flags. Like `Themida`, this method is used to detect the debugger.
 
 

@@ -1,4 +1,3 @@
-[EN](./chunk_extend_overlapping.md) | [ZH](./chunk_extend_overlapping-zh.md)
 # Chunk Extend and Overlapping
 
 

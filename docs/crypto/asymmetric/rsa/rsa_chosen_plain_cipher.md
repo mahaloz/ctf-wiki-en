@@ -1,4 +1,3 @@
-[EN](./rsa_chosen_plain_cipher.md) | [ZH](./rsa_chosen_plain_cipher-zh.md)
 # RSA Selecting a clear ciphertext attack
 
 

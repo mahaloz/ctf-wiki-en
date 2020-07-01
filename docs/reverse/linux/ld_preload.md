@@ -1,4 +1,3 @@
-[EN](./ld_preload.md) | [ZH](./ld_preload-zh.md)
 ## Principle
 
 

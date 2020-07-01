@@ -1,4 +1,3 @@
-[EN](./fnv.md) | [ZH](./fnv-zh.md)
 # Fowler–Noll–Vo hash function
 
 

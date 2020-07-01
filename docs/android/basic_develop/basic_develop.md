@@ -1,4 +1,3 @@
-[EN](./basic_develop.md) | [ZH](./basic_develop-zh.md)
 # Android Development Fundamentals
 
 

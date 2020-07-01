@@ -1,4 +1,3 @@
-[EN](./malloc.md) | [ZH](./malloc-zh.md)
 # Apply for a memory block
 
 

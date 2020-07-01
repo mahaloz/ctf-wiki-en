@@ -1,4 +1,3 @@
-[EN](./pyc.md) | [ZH](./pyc-zh.md)
 code object
 
 ===

@@ -1,4 +1,3 @@
-[EN](./experience.md) | [ZH](./experience-zh.md)
 First of all, the normal game will provide the interface to submit the flag, the interface address is similar to `http://172.16.4.1/Common/submitAnswer`. In general, we need to submit the flag through the interface according to the documentation requirements given by the organizer. Require interface address to use Post in the game
 The method is submitted with two parameters, one is `Answer`, the value is the obtained flag string, and the other is `token`, which is the team token of each team.
 

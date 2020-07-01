@@ -1,4 +1,3 @@
-[EN](./leak_heap.md) | [ZH](./leak_heap-zh.md)
 # Information leakage through the heap
 
 

@@ -1,4 +1,3 @@
-[EN](./so.md) | [ZH](./so-zh.md)
 # so Introduction
 
 

@@ -1,4 +1,3 @@
-[EN](./tcache.md) | [ZH](./tcache-zh.md)
 # tcache
 
 

@@ -1,4 +1,3 @@
-[EN](./history.md) | [ZH](./history-zh.md)
 > The content of this column is taken from the public video "The Past, Present and Future of CTF" by Teacher Zhuge Jianwei in the Spring Festival.
 
 

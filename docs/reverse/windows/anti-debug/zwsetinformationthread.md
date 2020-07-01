@@ -1,4 +1,3 @@
-[EN](./zwsetinformationthread.md) | [ZH](./zwsetinformationthread-zh.md)
 ## About ZwSetInformationThread
 
 ZwSetInformationThread is same as NtSetInformationThread. By setting the ThreadHideFromDebugger for a thread, you can disable the thread from generating debugging events. The code is as follows  

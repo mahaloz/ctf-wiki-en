@@ -1,4 +1,3 @@
-[EN](./rsa_side_channel.md) | [ZH](./rsa_side_channel-zh.md)
 # RSA Side Channel Attack
 
 

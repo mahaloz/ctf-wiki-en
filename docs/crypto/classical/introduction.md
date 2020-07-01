@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 In classical cryptography, we mainly introduce single-table alternative passwords, multi-table alternative passwords, and some other more interesting passwords.
 
 

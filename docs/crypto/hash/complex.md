@@ -1,4 +1,3 @@
-[EN](./complex.md) | [ZH](./complex-zh.md)
 # 综合
 
 

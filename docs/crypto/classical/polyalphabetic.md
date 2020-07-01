@@ -1,4 +1,3 @@
-[EN](./polyalphabetic.md) | [ZH](./polyalphabetic-zh.md)
 For multi-table replacement encryption, the encrypted letters almost no longer maintain the original frequency, so we can only use the algorithm to achieve the corresponding weakness to crack.
 
 

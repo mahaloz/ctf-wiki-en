@@ -1,4 +1,3 @@
-[EN](./stackoverflow-basic.md) | [ZH](./stackoverflow-basic-zh.md)
 #Stack overflow principle
 
 

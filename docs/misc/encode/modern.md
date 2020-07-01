@@ -1,4 +1,3 @@
-[EN](./modern.md) | [ZH](./modern-zh.md)
 ## Barcode
 
 

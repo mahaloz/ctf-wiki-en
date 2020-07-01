@@ -1,4 +1,3 @@
-[EN](./heap_overview.md) | [ZH](./heap_overview-zh.md)
 
 #堆 overview
 

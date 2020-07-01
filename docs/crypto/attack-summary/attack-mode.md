@@ -1,4 +1,3 @@
-[EN](./attack-mode.md) | [ZH](./attack-mode-zh.md)
 # Introduction
 
 

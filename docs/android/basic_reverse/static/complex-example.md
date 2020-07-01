@@ -1,4 +1,3 @@
-[EN](./complex-example.md) | [ZH](./complex-example-zh.md)
 # Static analysis comprehensive topic
 
 

@@ -1,4 +1,3 @@
-[EN](./fmtstr_detect.md) | [ZH](./fmtstr_detect-zh.md)
 #Format string vulnerability detection
 
 

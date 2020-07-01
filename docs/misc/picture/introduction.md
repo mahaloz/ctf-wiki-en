@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 Image files are a good source of hacker culture, so various image files often appear in CTF contests.
 
 

@@ -1,4 +1,3 @@
-[EN](./large_bin_attack.md) | [ZH](./large_bin_attack-zh.md)
 # Large Bin Attack
 
 

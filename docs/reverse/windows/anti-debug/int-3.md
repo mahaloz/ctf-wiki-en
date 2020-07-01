@@ -1,4 +1,3 @@
-[EN](./int-3.md) | [ZH](./int-3-zh.md)
 Whenever a software interrupt exception is triggered, the exception address and the value of the EIP register will point to the next instruction that generated the exception. But the breakpoint exception is one of the special cases.
 
 

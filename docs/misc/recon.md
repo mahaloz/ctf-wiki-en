@@ -1,4 +1,3 @@
-[EN](./recon.md) | [ZH](./recon-zh.md)
 ## Network Information Collection Tips
 
 

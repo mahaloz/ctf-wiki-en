@@ -1,4 +1,3 @@
-[EN](./sfx.md) | [ZH](./sfx-zh.md)
 The &quot;SFX&quot; method takes advantage of the OEP search function that comes with Ollydbg. You can choose to stop the program directly at the OEP found by the OD. At this time, the decompression process of the shell is completed, and you can directly dump the program.
 
 

@@ -1,4 +1,3 @@
-[EN](./nfsr.md) | [ZH](./nfsr-zh.md)
 #非反馈 feedback shift register
 
 

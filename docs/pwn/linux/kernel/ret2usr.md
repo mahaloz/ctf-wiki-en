@@ -1,4 +1,3 @@
-[EN](./ret2usr.md) | [ZH](./ret2usr-zh.md)
 ## ret2usr
 
 The ret2usr attack exploits the user space of the user space to access the kernel space, but the kernel space can access the user space** This feature directs the kernel code or data stream to the user control, and performs the userspace code completion with the `ring 0` privilege. Wait for the operation.

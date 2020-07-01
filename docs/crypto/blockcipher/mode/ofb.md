@@ -1,4 +1,3 @@
-[EN](./ofb.md) | [ZH](./ofb-zh.md)
 # OFB
 
 

@@ -1,4 +1,3 @@
-[EN](./dynamic_debug.md) | [ZH](./dynamic_debug-zh.md)
 # Android dynamic debugging
 
 

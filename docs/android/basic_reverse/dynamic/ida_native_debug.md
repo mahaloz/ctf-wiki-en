@@ -1,4 +1,3 @@
-[EN](./ida_native_debug.md) | [ZH](./ida_native_debug-zh.md)
 # IDA Dynamically Debugging Native Layer Programs
 
 

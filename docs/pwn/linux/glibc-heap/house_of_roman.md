@@ -1,4 +1,3 @@
-[EN](./house_of_roman.md) | [ZH](./house_of_roman-zh.md)
 
 
 

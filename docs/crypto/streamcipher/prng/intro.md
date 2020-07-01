@@ -1,4 +1,3 @@
-[EN](./intro.md) | [ZH](./intro-zh.md)
 # pseudo random number generator introduction
 
 

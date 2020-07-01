@@ -1,4 +1,3 @@
-[EN](./knapsack.md) | [ZH](./knapsack-zh.md)
 ## Backpack problem
 
 

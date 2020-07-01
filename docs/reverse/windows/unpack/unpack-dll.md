@@ -1,4 +1,3 @@
-[EN](./unpack-dll.md) | [ZH](./unpack-dll-zh.md)
 Here you need to contact the previous section [Manually find IAT and use ImportREC to rebuild] (/reverse/unpack/manually-fix-iat/index.html)
 
 

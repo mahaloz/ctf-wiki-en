@@ -1,4 +1,3 @@
-[EN](./maze.md) | [ZH](./maze-zh.md)
 # Maze problem
 
 

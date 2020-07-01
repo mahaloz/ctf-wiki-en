@@ -1,4 +1,3 @@
-[EN](./simon-speck.md) | [ZH](./simon-speck-zh.md)
 # Simon and Speck Block Ciphers
 
 

@@ -1,4 +1,3 @@
-[EN](./Wireshark.md) | [ZH](./Wireshark-zh.md)
 ## Wireshark Introduction to Common Functions
 
 

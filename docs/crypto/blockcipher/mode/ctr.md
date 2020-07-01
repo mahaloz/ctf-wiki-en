@@ -1,4 +1,3 @@
-[EN](./ctr.md) | [ZH](./ctr-zh.md)
 # CTR
 
 

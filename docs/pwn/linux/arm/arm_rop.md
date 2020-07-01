@@ -1,4 +1,3 @@
-[EN](./arm_rop.md) | [ZH](./arm_rop-zh.md)
 # arm - ROP
 
 

@@ -1,4 +1,3 @@
-[EN](./rsa_complex.md) | [ZH](./rsa_complex-zh.md)
 # RSA Complex topic
 
 

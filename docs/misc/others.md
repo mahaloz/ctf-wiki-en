@@ -1,4 +1,3 @@
-[EN](./others.md) | [ZH](./others-zh.md)
 ## shellcode
 
 

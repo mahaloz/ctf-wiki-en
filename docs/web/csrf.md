@@ -1,4 +1,3 @@
-[EN](./csrf.md) | [ZH](./csrf-zh.md)
 ## CSRF Introduction
 
 

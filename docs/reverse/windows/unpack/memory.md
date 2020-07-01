@@ -1,4 +1,3 @@
-[EN](./memory.md) | [ZH](./memory-zh.md)
 The memory mirroring method is to enter the virtual memory section of the program by the ALT&#39;s `ALT+M` shortcut when the packer is loaded. Then, by adding two memory one-time breakpoints, the correct OEP position of the program is reached.
 
 

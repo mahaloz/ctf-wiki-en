@@ -1,4 +1,3 @@
-[EN](./communication.md) | [ZH](./communication-zh.md)
 ## Phone Dialing Code
 
 

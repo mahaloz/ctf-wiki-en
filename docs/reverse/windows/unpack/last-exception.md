@@ -1,4 +1,3 @@
-[EN](./last-exception.md) | [ZH](./last-exception-zh.md)
 The principle of the last exception method is that the program may trigger countless exceptions during self-extraction or self-decryption. If you can locate the last program exception, it may be close to the automatic shelling completion position. Now the last An exception method shelling can take advantage of Ollydbg&#39;s exception counter plugin, first record the number of exceptions, then reload, automatically stop at the last exception.
 
 

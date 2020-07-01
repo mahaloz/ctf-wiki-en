@@ -1,4 +1,3 @@
-[EN](./monoalphabetic.md) | [ZH](./monoalphabetic-zh.md)
 ## General Features
 
 

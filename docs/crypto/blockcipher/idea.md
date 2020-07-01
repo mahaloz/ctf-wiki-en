@@ -1,4 +1,3 @@
-[EN](./idea.md) | [ZH](./idea-zh.md)
 # IDEA
 
 

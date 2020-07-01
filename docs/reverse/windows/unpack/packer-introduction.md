@@ -1,4 +1,3 @@
-[EN](./packer-introduction.md) | [ZH](./packer-introduction-zh.md)
 ## What is the shell?
 
 

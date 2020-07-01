@@ -1,4 +1,3 @@
-[EN](./heap_structure.md) | [ZH](./heap_structure-zh.md)
 #堆related data structure
 
 

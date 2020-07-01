@@ -1,4 +1,3 @@
-[EN](./house_of_force.md) | [ZH](./house_of_force-zh.md)
 # House Of Force
 
 

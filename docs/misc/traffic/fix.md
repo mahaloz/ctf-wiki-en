@@ -1,4 +1,3 @@
-[EN](./fix.md) | [ZH](./fix-zh.md)
 ## PCAP file structure
 
 

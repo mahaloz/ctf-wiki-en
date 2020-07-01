@@ -1,4 +1,3 @@
-[EN](./gif.md) | [ZH](./gif-zh.md)
 ## File Structure
 
 

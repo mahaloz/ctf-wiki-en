@@ -1,4 +1,3 @@
-[EN](./malloc_state.md) | [ZH](./malloc_state-zh.md)
 # malloc_state Related Functions
 
 

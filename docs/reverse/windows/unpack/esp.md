@@ -1,4 +1,3 @@
-[EN](./esp.md) | [ZH](./esp-zh.md)
 ESP law is a weapon for shelling, and it is one of the most frequently used methods for shelling.
 
 

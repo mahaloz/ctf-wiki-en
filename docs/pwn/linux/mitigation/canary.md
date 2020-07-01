@@ -1,4 +1,3 @@
-[EN](./canary.md) | [ZH](./canary-zh.md)
 
 
 # Canary

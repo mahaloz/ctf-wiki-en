@@ -1,4 +1,3 @@
-[EN](./rsa_e_attack.md) | [ZH](./rsa_e_attack-zh.md)
 ## Small public key index attack
 
 

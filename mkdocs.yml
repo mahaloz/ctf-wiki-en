@@ -311,9 +311,9 @@ nav:
 # Theme
 theme:
   name: 'material'
-  language: 'zh'
+  language: 'en'
   palette:
-    primary: 'white'
+    primary: 'blue'
     accent: 'red'
   icon:
     logo: 'material/school'

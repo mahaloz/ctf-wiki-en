@@ -1,4 +1,3 @@
-[EN](./house_of_rabbit.md) | [ZH](./house_of_rabbit-zh.md)
 # House of Rabbit
 
 

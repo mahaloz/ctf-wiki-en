@@ -1,4 +1,3 @@
-[EN](./dsa.md) | [ZH](./dsa-zh.md)
 # DSA
 
 

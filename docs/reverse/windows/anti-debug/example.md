@@ -1,4 +1,3 @@
-[EN](./example.md) | [ZH](./example-zh.md)
 Let&#39;s analyze a 2016 anti-debugging problem for SecCon, title download link: [bin.exe](https://github.com/ctf-wiki/ctf-challenges/blob/master/reverse/anti- Debug/2016_seccon/anti_debugging_100/bin.exe)
 
 

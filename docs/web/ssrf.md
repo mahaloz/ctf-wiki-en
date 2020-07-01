@@ -1,4 +1,3 @@
-[EN](./ssrf.md) | [ZH](./ssrf-zh.md)
 ## SSRF Introduction
 
 

@@ -1,4 +1,3 @@
-[EN](./use_after_free.md) | [ZH](./use_after_free-zh.md)
 # Use After Free
 
 

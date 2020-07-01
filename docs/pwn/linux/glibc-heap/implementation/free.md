@@ -1,4 +1,3 @@
-[EN](./free.md) | [ZH](./free-zh.md)
 #release memory block
 
 

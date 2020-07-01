@@ -1,4 +1,3 @@
-[EN](./overview.md) | [ZH](./overview-zh.md)
 # Deep understanding of heap implementation
 
 

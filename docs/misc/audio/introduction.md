@@ -1,4 +1,3 @@
-[EN](./introduction.md) | [ZH](./introduction-zh.md)
 The audio-related CTF topics mainly use steganographic strategies, which are mainly divided into MP3 steganography, LSB steganography, waveform steganography, spectrum steganography, and so on.
 
 

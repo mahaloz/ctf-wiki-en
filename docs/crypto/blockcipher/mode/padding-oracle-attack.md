@@ -1,4 +1,3 @@
-[EN](./padding-oracle-attack.md) | [ZH](./padding-oracle-attack-zh.md)
 # Padding Oracle Attack
 
 

@@ -1,4 +1,3 @@
-[EN](./fix-iat.md) | [ZH](./fix-iat-zh.md)
 ## Principle
 
 

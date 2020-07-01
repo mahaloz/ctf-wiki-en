@@ -1,4 +1,3 @@
-[EN](./house_of_lore.md) | [ZH](./house_of_lore-zh.md)
 # House of Lore
 
 

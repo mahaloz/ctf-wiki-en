@@ -1,4 +1,3 @@
-[EN](./discrete-log.md) | [ZH](./discrete-log-zh.md)
 # discrete logarithm
 
 

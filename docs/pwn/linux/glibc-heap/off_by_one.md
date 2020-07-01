@@ -1,4 +1,3 @@
-[EN](./off_by_one.md) | [ZH](./off_by_one-zh.md)
 #Off-By-One in the heap
 
 

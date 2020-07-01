@@ -1,4 +1,3 @@
-[EN](./summary.md) | [ZH](./summary-zh.md)
 # to sum up
 
 

@@ -1,4 +1,3 @@
-[EN](./rsa_theory.md) | [ZH](./rsa_theory-zh.md)
 # RSA Introduction
 
 

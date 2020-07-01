@@ -1,4 +1,3 @@
-[EN](./data.md) | [ZH](./data-zh.md)
 This piece is another key point in the traffic package. Through the analysis of the protocol, the key points of the problem are found. How to extract the data becomes the next key issue.
 
 

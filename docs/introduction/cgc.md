@@ -1,4 +1,3 @@
-[EN](./cgc.md) | [ZH](./cgc-zh.md)
 &gt; This section is taken from Professor Li Kang&#39;s speech at the ISC Internet Security Conference on August 17, 2016, &quot;Understanding and Exploiting Vulnerabilities in the Network Super Challenge.&quot;
 
 

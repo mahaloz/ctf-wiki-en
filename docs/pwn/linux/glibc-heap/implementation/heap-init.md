@@ -1,4 +1,3 @@
-[EN](./heap-init.md) | [ZH](./heap-init-zh.md)
 #堆 initialization
 
 

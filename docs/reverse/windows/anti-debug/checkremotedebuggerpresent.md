@@ -1,4 +1,3 @@
-[EN](./checkremotedebuggerpresent.md) | [ZH](./checkremotedebuggerpresent-zh.md)
 ## About CheckRemoteDebuggerPresent
 
 

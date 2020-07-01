@@ -1,4 +1,3 @@
-[EN](./rsa_module_attack.md) | [ZH](./rsa_module_attack-zh.md)
 
 ## Bruteforcing Factors of N 
 

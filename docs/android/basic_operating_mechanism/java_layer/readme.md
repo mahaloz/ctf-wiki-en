@@ -1,4 +1,3 @@
-[EN](./readme.md) | [ZH](./readme-zh.md)
 # Android Java layer running mechanism
 
 

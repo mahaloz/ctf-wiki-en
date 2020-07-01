@@ -1,4 +1,3 @@
-[EN](./des.md) | [ZH](./des-zh.md)
 
 # DES
 

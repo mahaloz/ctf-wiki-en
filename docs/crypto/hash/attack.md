@@ -1,4 +1,3 @@
-[EN](./attack.md) | [ZH](./attack-zh.md)
 # Hash Attack
 
 

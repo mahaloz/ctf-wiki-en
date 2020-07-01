@@ -1,4 +1,3 @@
-[EN](./hijack-control-flow.md) | [ZH](./hijack-control-flow-zh.md)
 # Control program execution flow
 
 

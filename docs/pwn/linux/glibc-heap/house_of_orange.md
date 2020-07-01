@@ -1,4 +1,3 @@
-[EN](./house_of_orange.md) | [ZH](./house_of_orange-zh.md)
 # House of Orange
 
 

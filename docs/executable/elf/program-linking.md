@@ -1,4 +1,3 @@
-[EN](./program-linking.md) | [ZH](./program-linking-zh.md)
 
 #程序链接
 

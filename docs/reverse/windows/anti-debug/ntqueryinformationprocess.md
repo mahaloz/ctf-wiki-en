@@ -1,4 +1,3 @@
-[EN](./ntqueryinformationprocess.md) | [ZH](./ntqueryinformationprocess-zh.md)
 ``` c++
 
 NTSTATUS WINAPI NtQueryInformationProcess(

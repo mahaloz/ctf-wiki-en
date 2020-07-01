@@ -1,4 +1,3 @@
-[EN](./rsa_d_attack.md) | [ZH](./rsa_d_attack-zh.md)
 ## d Leak attack
 
 

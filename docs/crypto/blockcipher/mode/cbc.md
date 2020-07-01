@@ -1,4 +1,3 @@
-[EN](./cbc.md) | [ZH](./cbc-zh.md)
 # CBC
 
 

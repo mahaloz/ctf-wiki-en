@@ -1,4 +1,3 @@
-[EN](./padding.md) | [ZH](./padding-zh.md)
 # Fill rule
 
 

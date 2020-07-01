@@ -1,4 +1,3 @@
-[EN](./so-example.md) | [ZH](./so-example-zh.md)
 # Static analysis of the native layer program
 
 

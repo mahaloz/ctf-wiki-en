@@ -2,11 +2,11 @@
 site_name: CTF Wiki
 site_description: CTF Wiki
 site_author: CTF Wiki Team
-site_url: https://ctf-wiki.github.io/ctf-wiki/
+site_url: https://ctf-wiki.github.io/ctf-wiki-en/
 
 # Repository
-repo_name: 'ctf-wiki/ctf-wiki'
-repo_url: 'https://github.com/ctf-wiki/ctf-wiki'
+repo_name: 'ctf-wiki/ctf-wiki-en'
+repo_url: 'https://github.com/ctf-wiki/ctf-wiki-en'
 edit_uri: 'blob/master/docs/'
 
 # Copyright

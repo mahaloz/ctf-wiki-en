@@ -313,7 +313,7 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    primary: 'blue'
+    primary: 'blue-grey'
     accent: 'red'
   icon:
     logo: 'material/school'

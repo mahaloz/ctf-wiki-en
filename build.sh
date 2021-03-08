@@ -21,3 +21,4 @@ sed -i 's/fonts.googleapis.com/fonts.loli.net/g' mkdocs-material/material/base.h
 cp ./static/gitalk.html mkdocs-material/material/partials/integrations/disqus.html
 
 mkdocs build -v
+echo "ctf-wiki.mahaloz.re" > CNAME

@@ -1,16 +1,16 @@
 # Project Information
-site_name: CTF Wiki
-site_description: CTF Wiki
-site_author: CTF Wiki Team
-site_url: https://ctf-wiki.github.io/ctf-wiki-en/
+site_name: CTF Wiki EN 
+site_description: CTF Wiki EN 
+site_author: mahaloz 
+site_url: https://ctf-wiki.mahaloz.re 
 
 # Repository
 repo_name: 'ctf-wiki/ctf-wiki-en'
-repo_url: 'https://github.com/ctf-wiki/ctf-wiki-en'
+repo_url: 'https://github.com/mahaloz/ctf-wiki-en'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2020 CTF Wiki Team'
+copyright: 'Copyright &copy; 2021 mahaloz'
 
 # Contents
 nav:

@@ -1,8 +1,8 @@
 # Project Information
-site_name: CTF Wiki EN 
-site_description: CTF Wiki EN 
-site_author: mahaloz 
-site_url: https://ctf-wiki.mahaloz.re 
+site_name: CTF Wiki EN
+site_description: CTF Wiki EN
+site_author: mahaloz
+site_url: https://ctf-wiki.mahaloz.re
 
 # Repository
 repo_name: 'mahaloz/ctf-wiki-en'
@@ -17,7 +17,7 @@ nav:
     - Introduction:
         - Getting Started: index.md
         - CTF History: introduction/history.md
-        - CTF Competition Styles: introduction/mode.md
+        - CTF Competition Types: introduction/mode.md
         - CTF Competition Topics: introduction/content.md
         - Attack and Defense Tips/Tricks: introduction/experience.md
         - CGC Super Challenge: introduction/cgc.md

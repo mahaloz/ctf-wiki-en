@@ -96,7 +96,7 @@ Score from sharing – (10% of overall score) – Scores based on the content du
 ### General review of the system
 
 
-The Belluminar system handed over the responsibility of creating challenges to the invited teams, so that each team can do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. Every team can have a different experience and progression. In the “Sharing” phase, allowing each team to explain their challenges is also a way great to increase their skillset. The open discussion process enables the sharing of creative ideas/methods. The opportunity to learn after the competition enables a deeper understanding on the subject.
+The Belluminar system handed over the responsibility of creating challenges to the invited teams, where each team do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. Every team can have a different experience and progression. In the “Sharing” phase, allowing each team to explain their challenges is also a way great to increase their skillset. The open discussion process enables the sharing of creative ideas/methods. The opportunity to learn after the competition enables a deeper understanding on the subject.
 
 
 ## Attack and Defense Mode - Attack &amp; Defense

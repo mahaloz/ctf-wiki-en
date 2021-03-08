@@ -2,17 +2,16 @@
 ## Problem Solving Mode - Jeopardy
 
 
-The problem solving mode (Jeopardy) is common in online selection competitions. In the CTF system of problem-solving mode, the participating teams can participate through the Internet or the on-site network. The parameter team can solve the network security technology challenge and obtain the corresponding score by interacting with the online environment or offline analysis of the file, and ACM.
-The programming competition and the informatics Olympic competition are similar, ranking according to the total score and time.
+The problem-solving type (Jeopardy) is a common format in online CTF competitions. In a Jeopardy CTF, the participating teams can participate through the Internet or the on-site network. The participating teams can participate through the Internet or the on-site network. Furthermore, teams can use the online environment to communicate and share files, solve technical challenges, and submit the answers to score points. Examples such as The International Collegiate Programming Contest, International Olympiad in Informatics, etc. The ranking is calculated by time of solve and total points.
 
 
-The difference is that the problem solving mode will generally set ** a blood **, ** two blood **, ** three blood **, that is, the first three teams to complete the first score will get extra points, so this is not only It is an incentive to score the team that solves the problem first, and it is also an indirect manifestation of team ability.
+What’s different in Jeopardy is that the first three teams that solve a challenge get rewarded with extra points. Generally, the first three solves are referred to as first blood, second blood, and third blood. This scoring format not only rewards teams who can solve the challenge quickly, but also shows teamwork through collaboration.
 
 
-Of course, there is also a popular scoring rule is to set the initial score of each question, and gradually reduce the score of the question according to the number of successful answering the number of the question, that is, if the number of people answering the question is more, Then the score of this question is lower. Finally, it will drop to a guaranteed bottom value and will not fall.
+Of course, there is another popular way of scoring, where the number of points a challenge worth is determined by the number of teams that successfully solve the challenge. Initially, A challenge is given reward points. As more teams successfully solve a challenge, that challenge’s total points reward decreases. Lastly, the reward points will stop decreasing once a hits a threshold.
 
 
-The topic types mainly include **Web Network Attack and Defense**, **RE Reverse Engineering**, **Pwn Binary Exploitation**, **Crypto Password Attack**, **Mobile Mobile Security** and **Misc Security Miscellaneous ** These six categories.
+In CTF, topics mainly include these six categories **Web – Web Application Exploits and Defenses**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous **
 
 
 ## War Sharing Mode - Belluminar

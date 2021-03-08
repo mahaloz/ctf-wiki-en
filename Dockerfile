@@ -1,5 +1,4 @@
 FROM python:3.6 as build-stage
-MAINTAINER Yibai Zhang <xm1994@gmail.com>
 
 ADD . /opt/ctf-wiki/
 WORKDIR /opt/ctf-wiki

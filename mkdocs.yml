@@ -313,8 +313,9 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    primary: 'blue-grey'
-    accent: 'red'
+    scheme: 'slate'
+    primary: 'pink'
+    accent: 'purple'
   icon:
     logo: 'material/school'
   features:

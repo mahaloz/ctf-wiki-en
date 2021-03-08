@@ -9,7 +9,7 @@
 ## Learning route
 
 
-- [Know the Chuangyu R&amp;D Skills Table v3.1] (http://blog.knownsec.com/Knownsec_RD_Checklist/index.html)
+- [Know the Chuangyu R&D Skills Table v3.1] (http://blog.knownsec.com/Knownsec_RD_Checklist/index.html)
 - [Bugbank Bank Skills Tree] (https://skills.bugbank.cn/)
 - [Security Skills Tree Lite by Cosine] (http://evilcos.me/security_skill_tree_basic/index.html)
 - [Safety mind map by phith0n] (https://github.com/phith0n/Mind-Map)
@@ -83,7 +83,7 @@
 
 
 
-## CTF Writeup 集合
+## CTF Writeup
 
 
 

@@ -2,7 +2,7 @@
 # Push HTML files to gh-pages automatically.
 
 # Fill this out with the correct org/repo
-ORG=ctf-wiki
+ORG=mahaloz
 REPO=ctf-wiki-en 
 # This probably should match an email for one of your users.
 EMAIL=zbasque@asu.edu

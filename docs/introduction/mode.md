@@ -17,14 +17,13 @@ In CTF, topics mainly include these six categories **Web – Web Application Exp
 ## War Sharing Mode - Belluminar
 
 
-In the 2016 World Hacking Masters Challenge (WCTF), the BELLUMINAR CTF (War and Share) system initiated by the Korean POC SECURITY team was introduced for the first time. Since then, the BELLUMINAR mode has been started in the country, and the current system is 2016.
-The XMan Summer Camp Sharing Competition of Zhuge Jianwei and the &quot;Baidu Cup&quot; CTF Competition in September of the same year.
+In the 2016 World Hacking Masters Challenge (WCTF), China was first introduced to the Belluminar CTF. Since then, Belluminar type of CTFs has been slowly popping up. In 2016, this type of competition has been seen in the XMan Summer Camp collected by Zhuge Jianwei and the Baidu Cup CTF Competition in September of the same year.
 
 
-At the same time, there is also an official website of the BELLUMINAR system: <http://belluminar.org/>
+Here is the official Belluminar website: <http://belluminar.org/>
 
 
-### Introduction to the competition system
+### Introduction to the Belluminar System
 
 
 > Belluminar, hacking contest of POC, started at POC2015 in KOREA for the first time. Belluminar is from 'Bellum'(war in Latin) and 'seminar'. It is not a just hacking contest but a kind of
@@ -35,17 +34,13 @@ At the same time, there is also an official website of the BELLUMINAR system: <h
 
 
 
-As the official website introduces, the BELLUMINAR CTF system is challenged by the invited teams, and after the game is finished, the ideas, learning process and problem-solving ideas of the competition are shared. The team score is based on the score, the problem score and the share score for a comprehensive evaluation and the final ranking.
+### Stage of Making the Challenges
 
 
-### Stage of the problem
+> Each team is required to submit 2 challenges to the challenge bank.
 
 
-> Each team is required to submit 2 challenges to the challenge bank of the sponsor.
-
-
-
-First of all, each invited team must submit a question before the official competition. The number of questions is 2 channels. The team will have 12 weeks to prepare the questions. The points scored accounted for 30% of the total score.
+First of all, each invited team must submit a question before the official competition. The teams will have 12 weeks to prepare the questions for the challenges. The score of the challenges made accounted for 30% of the total team score.
 
 
 > Challenge 1: must be on the Linux platform;
@@ -56,27 +51,25 @@ First of all, each invited team must submit a question before the official compe
 
 
 
-One of the two questions required by the traditional BELLUMINAR system must be on the Linux platform, and the other is the Challenge on non-Linux platforms. There are no restrictions on the types of the two Challenges. Therefore, the team can show their skill level.
+Traditional Belluminar systems require each team to make two challenges. One of the challenges must be in Linux, while the other has no  platform or challenge type restriction. Therefore, the team can show their skill and creativity.
 
 
-In order to make the types of competitions more balanced, there are also ways to draw their own questions by means of lottery. This requires a more comprehensive level of competence, so in order to avoid balance, the two Challenges will be counted into different scores ( For example, ask for one of the Challenge scores.
-200, and another score is 100).
+In order to make the types of challenges more balanced, teams have to draw for their challenge type. This requires the team's skill level to be more comprehensive. In order to maintain balance, the two challenges might have different scores (For example, one might need to be the score of 200, while the other be the score of 100).
 
 
 ### Submitting a deployment
 
 
-Before the deadline for submission of the title, each team needs to submit a complete document and a problem-solving Writeup, which requires detailed description of the topic score, the title, the person in charge of the problem, the list of knowledge points and the source code of the topic. And solve the problem Writeup
-In the middle, you need to include the operating environment, complete problem solving process, and problem solving code.
+Before submitting the challenges, teams must submit a full document and a solve writeup for the challenges. The document must include the challenge name and score, challenge description, challenge creator, knowledge needed, and the source code of the challenge. However, the solve write-up only needs to include the operating environment, the full solving process, and the solve script/code.
 
 
 After the topic is submitted, the organizer will test the title and the problem solving code. If there is a problem during the period, the responsible person of the question needs to cooperate to solve the problem. Finally deployed to the competition platform.
 
 
-### 解题竞技
+### During the Completion
 
 
-After entering the competition, each team can see all the other team&#39;s questions and challenge, but can not answer the questions of the team, do not set the First Blood reward, according to the problem points. Problem solving points account for 60% of the total score.
+After entering the competition, each team can request to solve the other team’s challenge. If they can’t solve the challenge, they will not get the First Blood reward. The ranking is based on the accumulated points earned on solved challenges; points earned from challenges account for 60% of the overall points.
 
 
 ### Share Discussion

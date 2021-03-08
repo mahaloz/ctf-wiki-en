@@ -313,7 +313,7 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    scheme: 'slate'
+    #scheme: 'slate'
     primary: 'pink'
     accent: 'purple'
   icon:
@@ -327,7 +327,7 @@ theme:
 # Customization
 extra:
   search:
-    language: 'jp'
+    language: 'en'
   disqus: 'ctf-wiki'
   copyright: 'CC BY-NC-SA 4.0'
 

@@ -17,15 +17,15 @@ nav:
     - Introduction:
         - Getting Started: index.md
         - CTF History: introduction/history.md
-        - Introduction to CTF Competition Form: introduction/mode.md
-        - CTF Contest Content: introduction/content.md
-        - Offline Attack and Defense Experience Summary: introduction/experience.md
+        - CTF Competition Styles: introduction/mode.md
+        - CTF Competition Topics: introduction/content.md
+        - Attack and Defense Tips/Tricks: introduction/experience.md
         - CGC Super Challenge: introduction/cgc.md
         - Learning Resources: introduction/resources.md
 
     - Misc:
         - Miscellaneous Introduction: misc/introduction.md
-        - Information Gathering Technology: misc/recon.md
+        - Information Gathering Method: misc/recon.md
         - Code Analysis:
             - Commonly Used Coding in the Communication Field: misc/encode/communication.md
             - Computer Related Coding: misc/encode/computer.md
@@ -53,7 +53,7 @@ nav:
             - ZIP Format: misc/archive/zip.md
             - RAR Format: misc/archive/rar.md
         - Audio Steganography: misc/audio/introduction.md
-        - Disk Memory Analysis:
+        - Disk and Memory Analysis:
             - Introduction: misc/disk-memory/introduction.md
             - Title: misc/disk-memory/problem.md
         - Other:
@@ -62,7 +62,7 @@ nav:
         - Introduction to Cryptography: crypto/introduction.md
         - Basic Mathematics:
             - Introduction: crypto/basic/introduction.md
-        - Classical Cryptography:
+        - Classical Cipher:
             - Introduction to Classical Cryptography: crypto/classical/introduction.md
             - Single table Substitution Cipher: crypto/classical/monoalphabetic.md
             - Multi-table Substitution Cipher: crypto/classical/polyalphabetic.md
@@ -136,14 +136,14 @@ nav:
             - DSA Digital Signature: crypto/signature/dsa.md
         - Summary of Attack Techniques:
             - Introduction: crypto/attack-summary/attack-mode.md
-            - Intermediate Encounter Attack: crypto/attack-summary/meet-in-the-middle.md
+            - Man in the Middle Attack: crypto/attack-summary/meet-in-the-middle.md
             - Bit attack: crypto/attack-summary/bit-attack.md
         - Certificate Format: crypto/certificate/introduction.md
     - Web:
         - Introduction to Web Applications: web/introduction.md
         - SQL Injection: web/sqli.md
-        - XSS Cross-site Scripting Attack: web/xss.md
-        - CSRF Cross-site Request Forgery: web/csrf.md
+        - XSS Cross-Site Scripting: web/xss.md
+        - CSRF Cross-Site Request Forgery: web/csrf.md
         - SSRF Server Request Forgery: web/ssrf.md
         - PHP Code Auditing: web/php/php.md
     - Assembly:
@@ -175,7 +175,7 @@ nav:
                 - Detecting Breakpoints Bypassing: reverse/linux/detect-bp.md
                 - Detecting Debugging Bypassing: reverse/linux/detect-dbg.md
         - Windows Reverse:
-            - Shelling Technology:
+            - Shelling Technique:
                 - Introduction to the Protective case: reverse/windows/unpack/packer-introduction.md
                 - Single Step Tracking Method: reverse/windows/unpack/trace.md
                 - ESP Law: reverse/windows/unpack/esp.md
@@ -186,7 +186,7 @@ nav:
                 - DUMP and IAT Reconstruction: reverse/windows/unpack/fix-iat.md
                 - Manually Find the IAT and Rebuild It Using ImportREC: reverse/windows/unpack/manually-fix-iat.md
                 - DLL File Unpacking: reverse/windows/unpack/unpack-dll.md
-            - Anti-debugging Technology:
+            - Anti-debugging Technique:
                 - NtGlobalFlag: reverse/windows/anti-debug/ntglobalflag.md
                 - Heap Flags: reverse/windows/anti-debug/heap-flags.md
                 - The Heap: reverse/windows/anti-debug/the-heap.md
@@ -196,7 +196,7 @@ nav:
                 - NtQueryInformationProcess: reverse/windows/anti-debug/ntqueryinformationprocess.md
                 - ZwSetInformationThread: reverse/windows/anti-debug/zwsetinformationthread.md
                 - Flower command: reverse/windows/anti-debug/junk-code.md
-                - Anti-debug technical example: reverse/windows/anti-debug/example.md
+                - Anti-debug Technical Example: reverse/windows/anti-debug/example.md
     - Pwn:
         - Pwn Overview:
             - pwn/readme.md
@@ -219,7 +219,7 @@ nav:
                 - Introduction to Heap: pwn/linux/glibc-heap/introduction.md
                 - Heap Overview: pwn/linux/glibc-heap/heap_overview.md
                 - Heap Related Data Structure: pwn/linux/glibc-heap/heap_structure.md
-                - In-depth Understanding of Ptmalloc2:
+                - In-depth Explanation of Ptmalloc2:
                     - Implementation: pwn/linux/glibc-heap/implementation/overview.md
                     - Basic Functions in the heap implementation: pwn/linux/glibc-heap/implementation/basic.md
                     - Heap Initialization: pwn/linux/glibc-heap/implementation/heap-init.md
@@ -275,7 +275,7 @@ nav:
             - Overview: pwn/windows/readme.md
             - Stack Overflow:
                 - Stack Introduction: pwn/windows/stackoverflow/stack-introduce.md
-                - Stack Overflow Principle: pwn/windows/stackoverflow/stackoverflow-basic.md
+                - Stack Overflow Basics: pwn/windows/stackoverflow/stackoverflow-basic.md
                 - shellcode-in-stack: pwn/windows/stackoverflow/shellcode-in-stack.md
 
     - Android:
@@ -289,10 +289,10 @@ nav:
                     - DEX: android/basic_operating_mechanism/java_layer/dex/dex.md
                     - ODEX: android/basic_operating_mechanism/java_layer/dex/odex.md
             - Android Native Layer Introduction:
-                - Android SO: android/basic_operating_mechanism/native_layer/so.md
+                - Android Shared Object: android/basic_operating_mechanism/native_layer/so.md
 
             - Android Reverse Basic Introduction:
-                - Brief Description: android/basic_reverse/overview.md
+                - Brief Overview: android/basic_reverse/overview.md
                 - Android Key Part Location: android/basic_reverse/android_code_location.md
                 - Android Simple Static Analysis:
                     - Android Java Layer Static Analysis: android/basic_reverse/static/java-example.md
@@ -303,8 +303,8 @@ nav:
                     - Android Dynamic Debugging SO: android/basic_reverse/dynamic/ida_native_debug.md
     - ICS:
         - ICS_CTF Contest: ics/ctfs.md
-        - ICS_CTF found: ics/discover.md
-        - ICS_CTF uses: ics/exploit.md
+        - ICS_CTF Discovery: ics/discover.md
+        - ICS_CTF Exploit: ics/exploit.md
         - ICS_CTF Learning Resources: ics/learn.md
 
 

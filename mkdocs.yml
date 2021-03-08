@@ -5,7 +5,7 @@ site_author: mahaloz
 site_url: https://ctf-wiki.mahaloz.re 
 
 # Repository
-repo_name: 'ctf-wiki/ctf-wiki-en'
+repo_name: 'mahaloz/ctf-wiki-en'
 repo_url: 'https://github.com/mahaloz/ctf-wiki-en'
 edit_uri: 'blob/master/docs/'
 
@@ -313,7 +313,7 @@ theme:
   name: 'material'
   language: 'en'
   palette:
-    #scheme: 'slate'
+    scheme: 'slate'
     primary: 'pink'
     accent: 'purple'
   icon:

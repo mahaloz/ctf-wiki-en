@@ -66,37 +66,37 @@ Before submitting the challenges, teams must submit a full document and a solve 
 After the topic is submitted, the organizer will test the title and the problem solving code. If there is a problem during the period, the responsible person of the question needs to cooperate to solve the problem. Finally deployed to the competition platform.
 
 
-### During the Completion
+### During the Competition
 
 
 After entering the competition, each team can request to solve the other team’s challenge. If they can’t solve the challenge, they will not get the First Blood reward. The ranking is based on the accumulated points earned on solved challenges; points earned from challenges account for 60% of the overall points.
 
 
-### Share Discussion
+### Share Discussion After the Competition
 
 
-After the game is over, the team rests and is ready to make a shared PPT (also ready for the problem stage). When sharing the meeting, each team sends 2
-The team members took the stage to carry out the problem-solving ideas, the learning process and the sharing of knowledge points. After the presentation, enter the interactive discussion session, and the explanation representative needs to answer the questions raised by the judges and other players. There is not much time limit for commentary, but time usage is a criterion for scoring.
+After the game is over, the team rests and creates PowerPoints (can also be done in the challenge creation phase). During the sharing meeting, each team sends two members to share their intended solutions, learning process, knowledge points, etc. Once the presentative is over, open discussion begins. the two team representatives must answer questions coming from other players or judges. While they don’t have a time limit on answering questions, the time used, however, is a variable in the scoring process.
 
 
 ### Scoring rules
 
 
-50% of the points (30% of the total score) are scored by the judges according to the level of detail submitted by the judges, the complete quality, the submission time, and the other 50% are scored according to the final problem after the game. Example of scoring formula: Score = MaxScore -- | N -- Expect_N |. Here N
-It refers to the number of teams that solved the problem, and Expect_N is the number of questions that the problem is expected to solve. Only when the difficulty of the topic is moderate and the number of problem solving teams is closer to the expected number Expect_N, the higher the problem scores obtained by the problem team.
+Score from creating challenges (30% of overall score) – 50% is judged based on the level of details, completion, submit time, and the other 50% scored according to the final problems solved.
 
+The formula is as follows: Score = MaxScore -- | N -- Expect＿N |
 
-Problem solving points (60% of total points) are not considered for the First Blood award.
+N is the number of teams that solved this challenge.
+Expect＿N is the number of teams expected to solve this challenge.
 
-
-Sharing points (10%) are scored by judges and other teams based on their technical sharing (considering sharing time and other restrictions), and the average is calculated.
+Only when the challenge’s difficulty is balanced, the number of teams solved this challenge will be closer to the number of teams expected to solve this challenge, the challenge’s creator will earn more points.
+Score from solving challenges (60% of overall score) – First Blood is not included in the calculation.
+Score from sharing – (10% of overall score) – Scores based on the content during the sharing meeting voted by players and judges (account for the time taken and other restrictions), will be calculated as an average.
 
 
 ### General review of the system
 
 
-In the system, Challenge&#39;s questions are handed over to the invited team, so that the team can do their best to each other. The difficulty and scope of the game will not be restricted by the organizer level, and the Challenge can also be improved.
-The quality of each team can have different experiences and upgrades. In the &quot;sharing&quot; session, the team&#39;s topic is explained at the same time as it is deepening its ability level. The process of discussing the answer is a kind of thinking interaction. Can get a better understanding in the learning summary after the game.
+The Belluminar system handed over the responsibility of creating challenges to the invited teams, so that each team can do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. Every team can have a different experience and progression. In the “Sharing” phase, allowing each team to explain their challenges is also a way great to increase their skillset. The open discussion process enables the sharing of creative ideas/methods. The opportunity to learn after the competition enables a deeper understanding on the subject.
 
 
 ## Attack and Defense Mode - Attack &amp; Defense

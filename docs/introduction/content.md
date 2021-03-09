@@ -1,4 +1,5 @@
-Because the topics covered in CTF questions are broad, there are no clear boundaries as to what will be tested. Based on the current CTFs questions, topics mainly include these six categories **Web – Web Application Exploitation**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous**
+Because the topics covered in CTF questions are broad, there are no clear boundaries as to what will be tested. Based on the current CTFs questions, topics mainly include these six categories:
+ **Web – Web Application Exploitation**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous**
 
 
 - **Web – Web Application Exploitation**

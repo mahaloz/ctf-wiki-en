@@ -142,7 +142,7 @@ The participating teams should backup all services before the competition. If a 
 The document will usually include a **network topology map** (as shown below), each team will maintain some Gamebox (one’s own server), there are vulnerable services deployed on the Gamebox.
 
 
-![attach and defend mode network topology map] (images/network.jpg)
+![attack and defend mode network topology map] (./images/network.jpg)
 
 
 The document will include the environment of the players, the offensive and defensive environment, and the organizers.

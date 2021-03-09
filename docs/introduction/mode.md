@@ -57,7 +57,7 @@ Traditional Belluminar systems require each team to make two challenges. One of 
 In order to make the types of challenges more balanced, teams have to draw for their challenge type. This requires the team's skill level to be more comprehensive. In order to maintain balance, the two challenges might have different scores (For example, one might need to be the score of 200, while the other be the score of 100).
 
 
-### Submitting challenges
+### Submitting Challenges
 
 
 Before submitting the challenges, teams must submit a full document and a solve writeup for the challenges. The document must include the challenge name and score, challenge description, challenge creator, knowledge needed, and source code of the challenge. However, the solve write-up only needs to include the operating environment, full solving process, and solve script/code.
@@ -78,7 +78,7 @@ After entering the competition, each team can request to solve the other team’
 After the game is over, the team rests and creates PowerPoints (can also be done in the challenge creation phase). During the sharing meeting, each team sends two members to share their intended solutions, learning process, knowledge points, etc. Once the presentative is over, open discussion begins. The two team representatives must answer questions from other players or judges. While they don’t have a time limit on answering questions, however, the time used is a variable in the scoring process.
 
 
-### Scoring rules
+### Scoring Rules
 
 
 Scores from creating challenges (30% of overall score) – 50% of the points are based on the level of details, completion, submit time, and the other 50% of the points coms from solved challenges.
@@ -92,7 +92,7 @@ Score from solving challenges (60% of overall score) – First Blood is not incl
 Score from sharing – (10% of overall score) – Scores based on the content during the sharing meeting voted by players and judges (account for the time taken and other restrictions), will be calculated as an average.
 
 
-### General review of the system
+### Thoughts on the Belluminar System
 
 
 The Belluminar system handed over the responsibility of creating challenges to the invited teams, where each team do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. The “Sharing” phase allows each team to explain their challenges. The open discussion process enables the sharing of creative ideas/methods. The “Sharing” phase after the competition is a great way for others players to learn.
@@ -123,7 +123,7 @@ If it is divided into two offensive and defensive games in the morning and after
 Under normal circumstances, the organizer will provide the network cable, but the network cable interface will not be provided, so you need to bring your own. **
 
 
-### basic rules
+### Basic Rules
 
 
 The general rules of attack and defense mode are as follows

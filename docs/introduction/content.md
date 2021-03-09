@@ -38,11 +38,11 @@ The Mobile topic mainly introduces the common tools and problems types in Androi
 The Misc topic mainly includes information gathering, coding, forensics, steganography, and etc.
 
 
-
 ## National College Student Information Security Contest - Challenges Topics
 
 
 In 2016, the National College Students Information Security Contest began to hold innovative practical skills competitions, which adopts the traditional CTF competition system. In the &quot;2016 National College Students Information Security Contest Guide&quot, the following topics are given by the organizer:
+
 
 1. System security. Involves operating system and web system security, including code audit in multiple languages (especially PHP), database management and SQL operations, web vulnerability discovery and exploit (such as SQL injection and XSS), getting shell on server, patching security vulnerabilities.
 2. Reverse engineering. Involves the use of multiple programming languages on Windows/Linux/Android platforms to analyze source code and binary files with tools, Reverse engineering Android mobile application and APK files, encryption and decryption, kernel programming, algorithm, debugging, and code obfuscation technologies.

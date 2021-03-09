@@ -2,7 +2,7 @@
 ## Problem Solving Mode - Jeopardy
 
 
-The problem-solving type (Jeopardy) is a common format in online CTF competitions. In a Jeopardy CTF, the participating teams can participate through the Internet or the on-site network. The participating teams can participate through the Internet or the on-site network. Furthermore, teams can use the online environment to communicate and share files, solve technical challenges, and submit the answers to score points. Examples such as The International Collegiate Programming Contest, International Olympiad in Informatics, etc. The ranking is calculated by time of solve and total points.
+The problem-solving type (Jeopardy) is a common format in online CTF competitions. In a Jeopardy CTF, the participating teams can participate through the Internet or the on-site network. Furthermore, teams can use the online environment to communicate and share files, solve technical challenges, and submit the answers to score points.
 
 
 What’s different in Jeopardy is that the first three teams that solve a challenge get rewarded with extra points. Generally, the first three solves are referred to as first blood, second blood, and third blood. This scoring format not only rewards teams who can solve the challenge quickly, but also shows teamwork through collaboration.
@@ -17,7 +17,7 @@ In CTF, topics mainly include these six categories **Web – Web Application Exp
 ## War Sharing Mode - Belluminar
 
 
-In the 2016 World Hacking Masters Challenge (WCTF), China was first introduced to the Belluminar CTF. Since then, Belluminar type of CTFs has been slowly popping up. In 2016, this type of competition has been seen in the XMan Summer Camp collected by Zhuge Jianwei and the Baidu Cup CTF Competition in September of the same year.
+In the 2016 World Hacking Masters Challenge (WCTF), China was first introduced to the Belluminar CTF. Since then, Belluminar type of CTFs has been slowly popping up. In 2016, this type of competition has been seen in the XMan Summer Camp by Zhuge Jianwei and the Baidu Cup CTF Competition in September of the same year.
 
 
 Here is the official Belluminar website: <http://belluminar.org/>
@@ -40,7 +40,7 @@ Here is the official Belluminar website: <http://belluminar.org/>
 > Each team is required to submit 2 challenges to the challenge bank.
 
 
-First of all, each invited team must submit a question before the official competition. The teams will have 12 weeks to prepare the questions for the challenges. The score of the challenges made accounted for 30% of the total team score.
+First, each invited team must submit a question before the official competition. The teams will have 12 weeks to prepare the questions for the challenges. The score of the challenges made accounted for 30% of the total team score.
 
 
 > Challenge 1: must be on the Linux platform;
@@ -51,52 +51,51 @@ First of all, each invited team must submit a question before the official compe
 
 
 
-Traditional Belluminar systems require each team to make two challenges. One of the challenges must be in Linux, while the other has no  platform or challenge type restriction. Therefore, the team can show their skill and creativity.
+Traditional Belluminar systems require each team to make two challenges. One of the challenges must be in Linux, while the other has no platform or challenge type restriction. Therefore, teams can show their skill and creativity.
 
 
 In order to make the types of challenges more balanced, teams have to draw for their challenge type. This requires the team's skill level to be more comprehensive. In order to maintain balance, the two challenges might have different scores (For example, one might need to be the score of 200, while the other be the score of 100).
 
 
-### Submitting a deployment
+### Submitting challenges
 
 
-Before submitting the challenges, teams must submit a full document and a solve writeup for the challenges. The document must include the challenge name and score, challenge description, challenge creator, knowledge needed, and the source code of the challenge. However, the solve write-up only needs to include the operating environment, the full solving process, and the solve script/code.
+Before submitting the challenges, teams must submit a full document and a solve writeup for the challenges. The document must include the challenge name and score, challenge description, challenge creator, knowledge needed, and source code of the challenge. However, the solve write-up only needs to include the operating environment, full solving process, and solve script/code.
 
 
-After the topic is submitted, the organizer will test the title and the problem solving code. If there is a problem during the period, the responsible person of the question needs to cooperate to solve the problem. Finally deployed to the competition platform.
+After the challenges are submitted, the organizers will test the challenges and code. If issues are found, the person responsible for the challenge must help to solve the problems. Then, the challenges can be put on the competition platform.
 
 
 ### During the Competition
 
 
-After entering the competition, each team can request to solve the other team’s challenge. If they can’t solve the challenge, they will not get the First Blood reward. The ranking is based on the accumulated points earned on solved challenges; points earned from challenges account for 60% of the overall points.
+After entering the competition, each team can request to solve the other team’s challenge. If they can’t solve the challenge, they will not get the First Blood reward. The ranking is based on the accumulated points earned by solving the challenges; points earned from challenges account for 60% of the overall points.
 
 
 ### Share Discussion After the Competition
 
 
-After the game is over, the team rests and creates PowerPoints (can also be done in the challenge creation phase). During the sharing meeting, each team sends two members to share their intended solutions, learning process, knowledge points, etc. Once the presentative is over, open discussion begins. the two team representatives must answer questions coming from other players or judges. While they don’t have a time limit on answering questions, the time used, however, is a variable in the scoring process.
+After the game is over, the team rests and creates PowerPoints (can also be done in the challenge creation phase). During the sharing meeting, each team sends two members to share their intended solutions, learning process, knowledge points, etc. Once the presentative is over, open discussion begins. The two team representatives must answer questions from other players or judges. While they don’t have a time limit on answering questions, however, the time used is a variable in the scoring process.
 
 
 ### Scoring rules
 
 
-Score from creating challenges (30% of overall score) – 50% is judged based on the level of details, completion, submit time, and the other 50% scored according to the final problems solved.
-
+Scores from creating challenges (30% of overall score) – 50% of the points are based on the level of details, completion, submit time, and the other 50% of the points coms from solved challenges.
 The formula is as follows: Score = MaxScore -- | N -- Expect＿N |
-
 N is the number of teams that solved this challenge.
 Expect＿N is the number of teams expected to solve this challenge.
-
 Only when the challenge’s difficulty is balanced, the number of teams solved this challenge will be closer to the number of teams expected to solve this challenge, the challenge’s creator will earn more points.
+
 Score from solving challenges (60% of overall score) – First Blood is not included in the calculation.
+
 Score from sharing – (10% of overall score) – Scores based on the content during the sharing meeting voted by players and judges (account for the time taken and other restrictions), will be calculated as an average.
 
 
 ### General review of the system
 
 
-The Belluminar system handed over the responsibility of creating challenges to the invited teams, where each team do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. Every team can have a different experience and progression. In the “Sharing” phase, allowing each team to explain their challenges is also a way great to increase their skillset. The open discussion process enables the sharing of creative ideas/methods. The opportunity to learn after the competition enables a deeper understanding on the subject.
+The Belluminar system handed over the responsibility of creating challenges to the invited teams, where each team do their best to create challenges for each other. The difficulty and scope of the competition will not be restricted by the organizer, so the quality of the challenges will improve. The “Sharing” phase allows each team to explain their challenges. The open discussion process enables the sharing of creative ideas/methods. The “Sharing” phase after the competition is a great way for others players to learn.
 
 
 ## Attack and Defense Mode - Attack &amp; Defense

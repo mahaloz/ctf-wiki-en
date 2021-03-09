@@ -139,45 +139,45 @@ The participating teams should backup all services before the competition. If a 
 ### Network Environment
 
 
-The document will usually include a **network topology map** (as shown below), each team will maintain some Gamebox (one’s own server), there are vulnerable services deployed on the Gamebox.
+The document will usually contain a **network topology map** (as shown below). Each team will maintain some Gamebox (one’s own server), vulnerable services are deployed on the Gamebox.
 
 
 ![attack and defend mode network topology map] (./images/network.jpg)
 
 
-The document will include the environment of the players, the offensive and defensive environment, and the organizers.
+The document will include the area of the players, the attack and defense zone, and the organizer’s or third party’s environment.
 
-
-Players need to be configured on a PC or automatically acquired by DHCP
+Players needs to configure or use DHCP to obtain the following:
 
 
 - IP address
 - Gateway
-- Mask DNS server address
+- Subnet
+- DNS server address
 
 
-Offensive and defensive environment
+Attack and defense environment
 
 
-- The address of the Gamebox, including the address of the party and other teams.
-- The game usually provides a mapping table of the team&#39;s id and corresponding ip so that the player can specify the appropriate attack and defense strategy.
+- The IP addresses of their own and the other teams' Gamebox.
+- The competition usually provides a table of team ids with their corresponding IP address to make planning easier.
 
 Organizer environment
 
 
-- Competition answer platform
-- Submit flag interface
-- Traffic access interface
+- Competition platform
+- Submit flag portal
+- Traffic dashboard
 
 
-### Visit Gamebox
+### Gamebox Login
 
 
-The way the team logs in to the gamebox is given in the entry document, generally as follows
+The document provides the login details. Normally, it's like the following:
 
 
 - Username is ctf
-- The private key is usually given by ssh login, password or private key.
+- Login to SSH using a password or private key
 
 
-Naturally, all default passwords should be modified after logging in to the team machine, and weak passwords should not be set.
+Default passwords should be changed immediately and weak passwords should not be used.

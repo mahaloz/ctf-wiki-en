@@ -6,7 +6,7 @@
 
 CTF originated from the competition game between hackers in the fourth DEFCON in 1996.
 
-## Early years of CTF
+## Early Years of CTF
 
 The first CTF (1996-2001) has no clear rules, no professionally built platform or environment. Each team prepares their own objective (defending their own objective, while attacking opponents' objective). Most of the organizers are just enthusiastic non-professional volunteers who assist in manual scoring.
 

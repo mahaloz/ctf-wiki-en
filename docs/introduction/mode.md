@@ -104,23 +104,17 @@ The Belluminar system handed over the responsibility of creating challenges to t
 ### Overview
 
 
-Attack and defense mode is common in the offline finals. In the offensive and defensive mode, at the initial moment, all participating teams have the same system environment (including several services, which may be located on different machines), often called gamebox. The participating teams mine network service vulnerabilities and attack the opponent service to get the flag to score and repair. Defend your own service vulnerabilities to prevent deductions (of course, some games will set a score on the defense, and the general defense can only avoid losing points).
+The finals of Attack and Defense competitions are usually done offline. In Attack and Defense mode, teams will use the same system environment, often referred to as the “Gamebox”. On the attacking side, teams need to discover vulnerabilities on services running on the opponent’s machine, then exploit them to score by obtaining the flag. On the defending side, teams need to patch existing vulnerabilities to stop losing points (usually defending and patching are the only way to stop losing points, of course, in some competitions successful defending can be rewarded with points).
 
 
-The offensive and defensive mode can reflect the game situation in real time through the score, and finally scores the winner directly. It is a fiercely competitive, highly ornamental and highly transparent network security system. In this system, it is not only more than the intelligence and skills of the players, but also more physical (because the game will generally last
-48 hours), and also cooperate and cooperate with the division of labor between the teams.
+An Attack and Defend competition not only tests the team’s technical skills but also tests the players' body (since most competitions last about 48 hours). At the same time, team members need to split up the tasks and work together on solving different problems.
 
 
-The specific environment of the general competition will be given by the competition organizer one day before the start of the competition or half an hour before the start of the competition (a small page of several pages). During this time, you need to be familiar with the environment and defend against the documentation provided by the organizer.
+Usually, the competition organizer will disclose the details on the requirements 30 minutes or 1 day before the competition. During that time, you cannot attack. You need to get familiar with the given environment and prepare to defend based on the given requirements. You will need to discover the opponent Gamebox’s IP address using the given subnet.
 
+If the two Attack and Defend sessions are between morning and afternoon, then the vulnerable services will get changed (in case players talk about them during the break). However, the IP address and what will not change.
 
-Half an hour before the start of the game, it is impossible to attack within half an hour, and each team will step up to become familiar with the game network environment and prepare for defense. As for the IP address of the enemy Gamebox, you need to find it on your own given network segment.
-
-
-If it is divided into two offensive and defensive games in the morning and afternoon, then the Gamebox vulnerability service will be replaced in the morning and afternoon (avoid the player exchange during the break), but the IP address to be used for management will not change. That is, ** will change the new question in the afternoon**.
-
-
-Under normal circumstances, the organizer will provide the network cable, but the network cable interface will not be provided, so you need to bring your own. **
+Normally, the organizer will provide ethernet cables, but not ethernet adopters.
 
 
 ### Basic Rules

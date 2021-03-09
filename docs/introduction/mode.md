@@ -11,7 +11,7 @@ What’s different in Jeopardy is that the first three teams that solve a challe
 Of course, there is another popular way of scoring, where the number of points a challenge worth is determined by the number of teams that successfully solve the challenge. Initially, A challenge is given reward points. As more teams successfully solve a challenge, that challenge’s total points reward decreases. Lastly, the reward points will stop decreasing once a hits a threshold.
 
 
-In CTF, topics mainly include these six categories **Web – Web Application Exploits and Defenses**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous **
+In CTF, topics mainly include these six categories **Web – Web Application Exploitation**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous **
 
 
 ## War Sharing Mode - Belluminar

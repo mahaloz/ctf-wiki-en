@@ -123,26 +123,26 @@ Normally, the organizer will provide ethernet cables, but not ethernet adopters.
 The general rules of attack and defense mode are as follows
 
 
-- The team&#39;s initial score is x points
-- The match takes 5/10 minutes as a round, and each round of the organizer will update the flag of the released service.
-- Within each round, a service of a team is successfully attacked by a penetration (taken and submitted by Flag), and after deducting a certain score, the team that successfully attacked divides the points equally.
-- Within each round, if the team is able to maintain their own services, the score will not decrease (if the defense is successful, the points will be added);
-- If a service is down or an exception cannot pass the test, it may be deducted, and the normal team will split the points. Often service exceptions will deduct more points.
-- If the services of all the teams in the round are abnormal, it is considered to be an irresistible factor and the scores are not reduced.
-- Within each round, the service exception and the taken Flag can occur simultaneously, ie the team may deduct the superimposed scores for a single service within one round.
-- Forbid the team to use the general defense method
-- Please enter the team to back up all services at the beginning of the game. If the service is permanently damaged or lost due to its own reasons, it cannot be restored. The organizer does not provide reset service.
-- It is forbidden to attack the competition platform other than the competition, including but not limited to the root of the gamebox, the use of the host platform vulnerability, etc., the offender immediately cancels the qualification
+- The teams will start with x points
+- During each round, the organizer will update which service contains the released flag.
+- During each round, if a team’s vulnerable service and the attacker obtained the flag via the vulnerable service, then the team will lose some points and the attacker will gain some points.
+- During each round, if a team can keep the its services running normally, then that team won’t lose points. (if defended successful, the points will be rewarded)
+- If a team’s service goes down, then the team will lose points, which distributed to teams that had their service running normally. Often, service downtime and errors will result in more deduction of points.
+- If all teams’ service goes down during a round and it is determined to be unavoidable. Then, no points will be deducted.
+- During each round, if a service goes down and a team gets the flag, the team responsible for the service may get deduct double the points.
+- The uses of general defense methods are forbidden.
+The participating teams should backup all services before the competition. If a service gets lost or damaged, the organizer will not restore it.
+- It is forbidden to attack the competition platform, including but not limited obtaining root in Gameebox. The offender immediately banned from the competing.
 - If the team finds violations of other teams, please report them immediately and we will strictly review and make corresponding judgments.
 
 
-### Web environment
+### Network Environment
 
 
-The document will generally have a network topology map of the game environment** (as shown below), each team will maintain a number of **Gamebox (self-server)**, there are vulnerable services deployed on the Gamebox.
+The document will usually include a **network topology map** (as shown below), each team will maintain some Gamebox (one’s own server), there are vulnerable services deployed on the Gamebox.
 
 
-![Offensive and defensive mode network topology] (./images/network.jpg)
+![attach and defend mode network topology map] (../images/network.jpg)
 
 
 The document will include the environment of the players, the offensive and defensive environment, and the organizers.

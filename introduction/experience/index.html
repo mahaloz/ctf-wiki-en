@@ -15,12 +15,12 @@
       
         <link rel="canonical" href="https://ctf-wiki.mahaloz.re/introduction/experience/">
       
-      <link rel="shortcut icon" href="../..">
+      <link rel="icon" href="../..">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
     
     
       
-        <title>Attack and Defense Tips/Tricks - CTF Wiki EN</title>
+        <title>Attack and Defense Experience Summary - CTF Wiki EN</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#follow-the-gamebox-status" class="md-skip">
+        <a href="#pay-attention-to-the-gameboxs-status" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Attack and Defense Tips/Tricks
+              Attack and Defense Experience Summary
             
           </span>
         </div>
@@ -479,12 +479,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Attack and Defense Tips/Tricks
+          Attack and Defense Experience Summary
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Attack and Defense Tips/Tricks
+        Attack and Defense Experience Summary
       </a>
       
         
@@ -499,15 +499,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#follow-the-gamebox-status" class="md-nav__link">
-    Follow the Gamebox status
+  <a href="#pay-attention-to-the-gameboxs-status" class="md-nav__link">
+    Pay attention to the Gamebox's status
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clearing-sections-and-ports" class="md-nav__link">
-    Clearing sections and ports
+  <a href="#knowing-the-network-segment-and-ports" class="md-nav__link">
+    Knowing the network segment and ports
   </a>
   
 </li>
@@ -520,15 +520,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#constructing-a-script-framework-to-quickly-launch-an-attack" class="md-nav__link">
-    Constructing a Script Framework to Quickly Launch an Attack
+  <a href="#use-a-script-to-attack-quickly" class="md-nav__link">
+    Use a Script to Attack Quickly
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#some-strategies-of-the-game" class="md-nav__link">
-    Some strategies of the game
+  <a href="#some-tricks-used-in-the-competition" class="md-nav__link">
+    Some Tricks Used in the Competition
   </a>
   
 </li>
@@ -537,18 +537,6 @@
   
 </nav>
       
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cgc/" class="md-nav__link">
-        CGC Super Challenge
-      </a>
     </li>
   
 
@@ -4926,15 +4914,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#follow-the-gamebox-status" class="md-nav__link">
-    Follow the Gamebox status
+  <a href="#pay-attention-to-the-gameboxs-status" class="md-nav__link">
+    Pay attention to the Gamebox's status
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clearing-sections-and-ports" class="md-nav__link">
-    Clearing sections and ports
+  <a href="#knowing-the-network-segment-and-ports" class="md-nav__link">
+    Knowing the network segment and ports
   </a>
   
 </li>
@@ -4947,15 +4935,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#constructing-a-script-framework-to-quickly-launch-an-attack" class="md-nav__link">
-    Constructing a Script Framework to Quickly Launch an Attack
+  <a href="#use-a-script-to-attack-quickly" class="md-nav__link">
+    Use a Script to Attack Quickly
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#some-strategies-of-the-game" class="md-nav__link">
-    Some strategies of the game
+  <a href="#some-tricks-used-in-the-competition" class="md-nav__link">
+    Some Tricks Used in the Competition
   </a>
   
 </li>
@@ -4977,50 +4965,49 @@
                   </a>
                 
                 
-                  <h1>Attack and Defense Tips/Tricks</h1>
+                  <h1>Attack and Defense Experience Summary</h1>
                 
-                <p>First of all, the normal game will provide the interface to submit the flag, the interface address is similar to <code>http://172.16.4.1/Common/submitAnswer</code>. In general, we need to submit the flag through the interface according to the documentation requirements given by the organizer. Require interface address to use Post in the game
-The method is submitted with two parameters, one is <code>Answer</code>, the value is the obtained flag string, and the other is <code>token</code>, which is the team token of each team.</p>
-<p>Then the organizer will also provide each participating team with a virtual machine for analyzing network traffic**, and the player needs to access the address to download the traffic file for analysis.</p>
-<h2 id="follow-the-gamebox-status">Follow the Gamebox status<a class="headerlink" href="#follow-the-gamebox-status" title="Permanent link">&para;</a></h2>
-<p>You can check the status of your own and enemy GameBox during the game. Always pay attention to get the game information as soon as possible, and make adjustments based on the information.</p>
-<p>For the own GameBox, there is a reason why the GameBox is down:</p>
+                <p>First, the competition will provide a portal to submit flags. The URL of the portal is like this: <code>http://172.16.4.1/Common/submitAnswer</code>. We need to use the information in the document to connect to the portal and submit flags. To submit flags, you need to use HTTP Post method with two parameters. One parameter <code>answer</code> is value of the flag, the other parameter <code>token</code> is value of the team's token.</p>
+<p>During the competition, the organizer will also provide each participating team with a <strong>virtual machine for analyzing network traffic</strong>, and players need to download the network traffic file and analyze it.</p>
+<h2 id="pay-attention-to-the-gameboxs-status">Pay attention to the Gamebox's status<a class="headerlink" href="#pay-attention-to-the-gameboxs-status" title="Permanent link">&para;</a></h2>
+<p>In the competition, you can check your own and your opponent's Gamebox status during a match. Paying attention to the status so you can pick up information early and adjust based on that information.</p>
+<p>There are several reasons why your GameBox is down:</p>
 <ol>
-<li>The organizer&#39;s referee system has made a mistake and misidentified GameBox as unavailable. This situation can usually be found before the start of the game. If this is the case, it should be reported to the staff as soon as possible to reduce the loss.</li>
-<li>The program patch error caused the service to be unavailable. After the program is finished, you need to enter the next round of attention to the GameBox state. If the patch error is not available, you need to save it in time. But don&#39;t worry too much about replacing the original unpatched vulnerability program. Because down
-Off is a small score for all teams, and the direct vulnerability program will make a strong team directly to get a high score. Therefore, it should be treated according to specific circumstances.</li>
-<li>The opponent&#39;s improper attack caused the GameBox to be unavailable. If found, it needs to be remedied in time.</li>
-<li>The organizer strengthens the program check. In this case, the organizer will announce the notice to all the players. The status on the GameBox status wall shows that the team&#39;s GameBox large area is not available.</li>
+<li>There was an error in the organizer's system that incorrectly displayed the Gamebox’s status. In this case, problems can normally be discovered before the competition. If you found issues in organizer's system, inform staff as early as possible to minimize damage.</li>
+<li>The patch program can accidentally cause the service to be unavailable. Check the Gamebox’s status after the patch, if the service is unavailable, fix it immediately. You don't worry about replacing it with an unpatched service/program since when the service is down, teams won't lose too many points. However, the unpatched service/program will be exploited by top teams to obtain more points. You need to deal with this type of situation on a case-by-case basis.</li>
+<li>Teams might use illegitimate attack methods that will bring down the Gamebox, if discovered, fix it immediately.</li>
+<li>The organizer modifies the check program. In that case, the organizer will notify all the teams. You will a majority of the Gamebox are unavailable.</li>
 </ol>
-<p>For the enemy GameBox. We can get the following information.</p>
+<p>You can get the following information about the opponent’s Gamebox:</p>
 <ol>
-<li>Observe which teams&#39; GameBoxes are not defensively successful based on the attack flow. More attacks can be achieved for these teams</li>
-<li>When a team takes out a blood. It can be inferred from the status of each team GameBox whether a blood team has written a usage script. After writing the script, you can observe whether your own defense is done.</li>
+<li>Determine which teams failed to defend their GameBox based on network traffic. So, more attacks can be made against these teams.</li>
+<li>When a team gets First Blood, you can tell if the First Blood team used an exploit based on each teams’ Gamebox status. <br />
+Furthermore, you can see which team's defense didn't work.</li>
 </ol>
-<h2 id="clearing-sections-and-ports">Clearing sections and ports<a class="headerlink" href="#clearing-sections-and-ports" title="Permanent link">&para;</a></h2>
-<p>During the competition, the organizer will arrange a reasonable network segment distribution.</p>
-<p>During maintenance, you need to connect to the network segment where the GameBox is located, and log in according to the CTF account and password provided by the organizer. When interacting with other teams&#39; GameBox, you need to connect to the corresponding network segment to interact with the vulnerability program. Submitting the flag will need to be submitted to the specified answering platform.</p>
+<h2 id="knowing-the-network-segment-and-ports">Knowing the network segment and ports<a class="headerlink" href="#knowing-the-network-segment-and-ports" title="Permanent link">&para;</a></h2>
+<p>During the competition, the organizer will assigned a network segment.</p>
+<p>In maintenance, your team must be on the assigned network segment to connect to the Gamebox. Then login based on the CTF username and password provided. This network segment will allow you interact with another team’s Gamebox and vulnerable programs.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 </div>
-<p>Of particular note here is the port. If the port is not easily mistaken, such an error is difficult to detect, and such mistakes can also cause unnecessary losses. There may even be a fatal situation where the flag cannot be submitted for a long time. So you need to be careful.</p>
+<p>Here you must pay close attention to the port. If a port is mistyped or mistaken, then it might bring unnecessary problems, like unable to submit flags. Mistyping the port is hard to detect. So, you should double-check and make sure the port is correct.</p>
 <h2 id="service-patch-and-defense">Service patch and defense<a class="headerlink" href="#service-patch-and-defense" title="Permanent link">&para;</a></h2>
 <ol>
-<li>The program patch should be reasonable and meet the referee system check conditions. Although the system check is not public, it is generally not too difficult.</li>
-<li>Program patch is modified using IDA. IDA provides three ways.
-Patch: byte, word, assemble. The bytecode modification is easier to use. Because the byte-by-byte modification does not need to consider the assembly instructions, generally such modification changes are also very small, and are very easy to use in certain occasions. Although the modification of the assembly instruction level does not require modification of the bytecode, it also causes some inconvenience. For example, it is necessary to additionally consider the length of the assembly instruction, whether the structure is reasonable and complete, whether the logic is the same as the original, whether the modified assembly instruction is legal or not.</li>
-<li>Remember to back up the original vulnerability program for patch analysis when using the patch program. When uploading a patch, you should delete the original vulnerability program, and then copy the patched program into it. After copying it, you need to give the program the appropriate permissions.</li>
-<li>In the general game, the vulnerability program will have more than a dozen places to patch. Patches must not only be effective and reasonable, but also satisfy the analysis that can prevent or confuse opponents to a certain extent.</li>
+<li>The patch program needs to meet the judge’s system check requirements. Even though what the system check actually checks are not disclosed, it’s not too difficult to pass.</li>
+<li>Use IDA to modify the patch program. IDA provides 3 ways to patch: byte, word, assemble. The byte method is easy to use since you don’t need assembly instructions. Generally, such modification is also very small and efficient. Assembly instruction-level modifications, while convenient without the need to modify the bytecode, can also cause some inconvenience. For example, having to worry about the length of the assembly instruction, if the structure is complete, and whether the logic and modified instruction are correct, etc.</li>
+<li>Remember to back up the vulnerable program before the patch for team analysis. Before updating the patch, remove the vulnerable program. Then, copy the patch and give it proper permissions.</li>
+<li>In general, there are around ten locations that need to patch in the vulnerable program.
+The patch should not only be effective but also add protection or confusion to your opponent's analysis</li>
 </ol>
-<h2 id="constructing-a-script-framework-to-quickly-launch-an-attack">Constructing a Script Framework to Quickly Launch an Attack<a class="headerlink" href="#constructing-a-script-framework-to-quickly-launch-an-attack" title="Permanent link">&para;</a></h2>
-<p>In the course of the offensive and defensive competition, a blood is particularly important. So having an attack script framework is very beneficial. Quickly develop attack scripts, you can maintain a dominant position in the early stage, and you can save time and take time to defend.</p>
-<h2 id="some-strategies-of-the-game">Some strategies of the game<a class="headerlink" href="#some-strategies-of-the-game" title="Permanent link">&para;</a></h2>
+<h2 id="use-a-script-to-attack-quickly">Use a Script to Attack Quickly<a class="headerlink" href="#use-a-script-to-attack-quickly" title="Permanent link">&para;</a></h2>
+<p>Fast attack scripts can maintain the advantage position in the early stage. At the same time getting points and saving time for defending.</p>
+<h2 id="some-tricks-used-in-the-competition">Some Tricks Used in the Competition<a class="headerlink" href="#some-tricks-used-in-the-competition" title="Permanent link">&para;</a></h2>
 <ol>
-<li>In the course of the game, it is not advisable to die on a single question. Due to the superiority of a blood, it is necessary to fully understand the difficulty of the game during the competition. First, analyze the <strong> simple question </strong>, step by step.</li>
-<li>During the competition, the two poles will be seriously differentiated. Efforts should be made to strike teams that are comparable to their own strengths and stronger than their own teams, especially if the scores are almost the same, and they must be strictly guarded against them.</li>
-<li>NPC will send attack traffic from time to time during the game. The payload can be obtained from the attack traffic.</li>
-<li>Be sure to fight the NPC to death.</li>
-<li>At the beginning of the game, all the management passwords can be set to the same password, which is convenient for the player to log in and manage. Back up all the files in the initial stage for sharing within the team.</li>
+<li>During the competition, don’t spend too long on a single question. Because of the advantage you get for obtaining First Blood, you should understand the overall difficulty of challenges. <strong>Start from the easier question</strong> and work your way up.</li>
+<li>During the competition, you should try to attack teams that are similar or above your skill level. especially if they have around the same score as your team. Remember to buff up your defense.</li>
+<li>During the competition, NPC (non-player characters) will randomly send your attack traffic. In the attack traffic, the payload can be obtained.</li>
+<li>Be sure to attack the NPC.</li>
+<li>At the beginning of the competition, you can change all the passwords to one password. That way, it’s easier to share and use. Also, back up all the files given and share them with the team.</li>
 </ol>
                 
               
@@ -5080,13 +5067,13 @@ Patch: byte, word, assemble. The bytecode modification is easier to use. Because
         </a>
       
       
-        <a href="../cgc/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../resources/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              CGC Super Challenge
+              Learning Resources
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -5122,7 +5109,7 @@ Patch: byte, word, assemble. The bytecode modification is easier to use. Because
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.c9759047.min.js"></script>
+      <script src="../../assets/javascripts/bundle.16f9b99f.min.js"></script>
       
         <script src="https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
       

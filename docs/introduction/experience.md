@@ -43,23 +43,23 @@ Here you must pay close attention to the port. If a port is mistyped or mistaken
 
 
 1. The patch program needs to meet the judge’s system check requirements. Even though what the system check actually checks are not disclosed, it’s not too difficult to pass.
-2. Program patch is modified using IDA. IDA provides three ways.
-Patch: byte, word, assemble. The bytecode modification is easier to use. Because the byte-by-byte modification does not need to consider the assembly instructions, generally such modification changes are also very small, and are very easy to use in certain occasions. Although the modification of the assembly instruction level does not require modification of the bytecode, it also causes some inconvenience. For example, it is necessary to additionally consider the length of the assembly instruction, whether the structure is reasonable and complete, whether the logic is the same as the original, whether the modified assembly instruction is legal or not.
-3. Remember to back up the original vulnerability program for patch analysis when using the patch program. When uploading a patch, you should delete the original vulnerability program, and then copy the patched program into it. After copying it, you need to give the program the appropriate permissions.
-4. In the general game, the vulnerability program will have more than a dozen places to patch. Patches must not only be effective and reasonable, but also satisfy the analysis that can prevent or confuse opponents to a certain extent.
+2. Use IDA to modify the patch program. IDA provides 3 ways to patch: byte, word, assemble. The byte method is easy to use since you don’t need assembly instructions. Generally, such modification is also very small and efficient. Assembly instruction-level modifications, while convenient without the need to modify the bytecode, can also cause some inconvenience. For example, having to worry about the length of the assembly instruction, if the structure is complete, and whether the logic and modified instruction are correct, etc.
+3. Remember to back up the vulnerable program before the patch for team analysis. Before updating the patch, remove the vulnerable program. Then, copy the patch and give it proper permissions.
+4. In general, there are around ten locations that need to patch in the vulnerable program.
+The patch should not only be effective but also add protection or confusion to your opponent's analysis
 
 
-## Constructing a Script Framework to Quickly Launch an Attack
+## Use a Script to Attack Quickly
 
 
-In the course of the offensive and defensive competition, a blood is particularly important. So having an attack script framework is very beneficial. Quickly develop attack scripts, you can maintain a dominant position in the early stage, and you can save time and take time to defend.
+Fast attack scripts can maintain the advantage position in the early stage. At the same time getting points and saving time for defending.
 
 
-## Some strategies of the game
+## Some Tricks Used in the Competition
 
 
-1. In the course of the game, it is not advisable to die on a single question. Due to the superiority of a blood, it is necessary to fully understand the difficulty of the game during the competition. First, analyze the ** simple question **, step by step.
-2. During the competition, the two poles will be seriously differentiated. Efforts should be made to strike teams that are comparable to their own strengths and stronger than their own teams, especially if the scores are almost the same, and they must be strictly guarded against them.
-3. NPC will send attack traffic from time to time during the game. The payload can be obtained from the attack traffic.
-4. Be sure to fight the NPC to death.
-5. At the beginning of the game, all the management passwords can be set to the same password, which is convenient for the player to log in and manage. Back up all the files in the initial stage for sharing within the team.
+1. During the competition, don’t spend too long on a single question. Because of the advantage you get for obtaining First Blood, you should understand the overall difficulty of challenges. **Start from the easier question** and work your way up.
+2. During the competition, you should try to attack teams that are similar or above your skill level. especially if they have around the same score as your team. Remember to buff up your defense.
+3. During the competition, NPC (non-player characters) will randomly send your attack traffic. In the attack traffic, the payload can be obtained.
+4. Be sure to attack the NPC.
+5. At the beginning of the competition, you can change all the passwords to one password. That way, it’s easier to share and use. Also, back up all the files given and share them with the team.

@@ -1,53 +1,51 @@
-Because the scope of the CTF&#39;s questions is actually quite broad, there is currently no clear definition of what to say. However, in terms of current game questions, it is mainly based on common **Web network attack and defense, RE reverse engineering, Pwn binary exploit, Crypto password attack, Mobile.
-Mobile Security** and **Misc Security Miscellaneous** are used for categorization.
+Because the topics covered in CTF questions are broad, there are no clear boundaries as to what will be tested. Based on the current CTFs questions, topics mainly include these six categories:
+ **Web – Web Application Exploitation**, **RE - Reverse Engineering**, **Pwn - Binary Exploitation**, **Crypto - Cipher Attacks**, **Mobile - Mobile Security** and **Misc - Miscellaneous**
 
 
-- **Web - Network Attack and Defense**
+- **Web – Web Application Exploitation**
 
 
-It mainly introduces common vulnerabilities in Web security, such as SQL injection, XSS, CSRF, file inclusion, file uploading, code auditing, PHP weak type, etc., common problem types and problem solving ideas in Web security, and provides some commonly used tools. .
+The Web topic mainly introduces common vulnerabilities in web apps, such as SQL injection, XSS, CSRF, file inclusion, file uploading, code auditing, PHP weaknesses, etc. Also, the common problem types, solving methods, and tools used.
 
 
-- **Reverse Engineering - Reverse Engineering**
+- **RE - Reverse Engineering**
 
 
-It mainly introduces the common problem types, tool platforms and problem-solving ideas in reverse engineering. The advanced part introduces the common software protection, decompilation, anti-debugging and shelling technology in reverse engineering.
+The RE topic mainly introduces common types of questions seen in RE challenges, reversing platforms, and solving methods. The advanced section introduces software protection, decompilation, anti-reversing, and packing and unpacking techniques.
 
 
-- **Pwn - Binary exploits**
+- **Pwn - Binary Exploitation**
 
 
-The Pwn topic mainly examines the exploitation and utilization of binary vulnerabilities, and requires a certain understanding of the underlying computer operating system. In the CTF competition, the PWN topic mainly appeared on the Linux platform.
+The Pwn topic mainly introduces the exploitation and utilization of binary vulnerabilities, which requires a understanding of the underlying operating system. In the CTFs, the pwn problems are mainly on Linux.
 
 
-- **Crypto - Password Attack**
+- **Crypto - Cipher Attacks**
 
 
-It mainly includes two parts: classical cryptography and modern cryptography. Classical cryptography has strong interest and variety, modern cryptography has high security, and requires high understanding of algorithms.
+The Crypto topic mainly includes two parts: classical ciphers and modern cryptography. Classical ciphers are interesting and diverse. Modern cryptography has high security and requires a deeper understanding of the algorithms used.
 
 
 - **Mobile - Mobile Security**
 
 
-It mainly introduces the common tools and main types of problems in Android reverse. Android reverse often requires a certain amount of Android development knowledge. iOS reverse problems are less common in CTF competitions, so do not introduce too much.
+The Mobile topic mainly introduces the common tools and problems types in Android reverse engineering. Android reverse engineering often requires some Android development knowledge. IOS reverse problems rarely appear in CTFs, so it won’t be covered.
 
 
-- **Misc - Security Miscellaneous**
+- **Misc - Miscellaneous**
 
 
-According to Zhuge Jianwei&#39;s &quot;Online Ghost: The World&#39;s No. 1 Hacker Mitnick&quot; and some typical MISC topics, the content includes information gathering, coding analysis, forensic analysis, and steganalysis.
+The Misc topic mainly includes information gathering, coding, forensics, steganography, and etc.
 
 
-## National University Student Information Security Competition - Contest Content
+## National College Student Information Security Contest - Challenges Topics
 
 
-In 2016, the National University Student Information Security Competition began to set up an innovative practical skill competition, which was based on the traditional CTF system. In the &quot;2016 National University Student Information Security Competition Entry Guide&quot;, the competition content given by the organizers is relatively comprehensive and worthy of reference.
+In 2016, the National College Students Information Security Contest began to hold innovative practical skills competitions, which adopts the traditional CTF competition system. In the &quot;2016 National College Students Information Security Contest Guide&quot, the following topics are given by the organizer:
 
 
-1. System security. Involves operating system and web system security, including web site multi-language source code audit analysis (especially PHP), database management and SQL operations, web vulnerability mining and utilization (such as SQL injection and
-XSS), server empowerment, writing code patches, and fixing security vulnerabilities such as website vulnerabilities.
-2. Software reverse. A variety of programming techniques involving the Windows/Linux/Android platform require reverse analysis of source and binary files using common tools to master Android mobile apps APK
-Reverse analysis of files, mastering encryption and decryption, kernel programming, algorithms, anti-debugging and code obfuscation techniques.
-3. Vulnerability mining and utilization. Master languages such as C/C++/Python/PHP/Java/Ruby/Assemble, explore Windows/Linux (x86/x86_64 platform) binary bugs, master buffer overflows and format string attacks, and write and utilize shellcode.
-4. Principles and applications of cryptography. Master classical cryptography and modern cryptography, analyze cryptographic algorithms and protocols, calculate keys and perform encryption and decryption operations.
-5. Other content. Including information gathering capabilities, programming capabilities, mobile security, cloud computing security, trusted computing, autonomous controllable, steganography and information hiding, Forensics technology and file recovery skills, computer network foundation and analysis of network traffic ability.
+1. System security. Involves operating system and web system security, including code audit in multiple languages (especially PHP), database management and SQL operations, web vulnerability discovery and exploit (such as SQL injection and XSS), getting shell on server, patching security vulnerabilities.
+2. Reverse engineering. Involves the use of multiple programming languages on Windows/Linux/Android platforms to analyze source code and binary files with tools, Reverse engineering Android mobile application and APK files, encryption and decryption, kernel programming, algorithm, debugging, and code obfuscation technologies.
+3. Binary Exploitation. Involves using languages such as C/C++/Python/PHP/Java/Ruby/Assemble, explore Windows/Linux (x86/x86_64 platform) binary bugs, understand buffer overflows and format string attacks, and writing shellcode.
+4. Cryptography. Involves classical ciphers and modern cryptography, analyze cryptographic algorithms, calculate keys to perform encryption and decryption operations.
+5. Miscellaneous. Involves information gathering, programming, mobile security, cloud computing security, trusted computing, autonomous controllable, steganography, forensics, file recovery, computer network foundation, and network traffic analysis.

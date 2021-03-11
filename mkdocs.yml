@@ -19,8 +19,7 @@ nav:
         - CTF History: introduction/history.md
         - CTF Competition Types: introduction/mode.md
         - CTF Competition Topics: introduction/content.md
-        - Attack and Defense Tips/Tricks: introduction/experience.md
-        - CGC Super Challenge: introduction/cgc.md
+        - Attack and Defense Experience Summary: introduction/experience.md
         - Learning Resources: introduction/resources.md
 
     - Misc:

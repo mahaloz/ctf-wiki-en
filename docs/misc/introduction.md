@@ -1,12 +1,11 @@
-Misc is the first four letters of English Miscellaneous, miscellaneous, mixed, and hodgepodge.
+Misc is an abbreviation for Miscellaneous
 
 
-Misc is actually divided into small pieces in foreign competitions.
-
+The Misc category typically contains the following topics:
 
 -   Recon
 
--   Forensic
+-   Forensics
 
 -   Stego
 
@@ -15,39 +14,30 @@ Misc is actually divided into small pieces in foreign competitions.
 -   ……
 
 
+The Misc category can sometimes include crypto (especially classic ciphers).
 
-In the domestic competition, it is divided into the Misc field, and sometimes Crypto (especially the classical code) is also included.
+In this section on Misc, we will go over the following topics:
 
+- Recon (Information Gathering)
 
-In the section on Misc, the knowledge of this piece will be introduced from the following aspects:
+Introduces ways to obtaining information and some tips on using search engines such as Google.
 
+- Encodings (Encoding Conversion)
 
-- Recon (Information Collection)
+Introduces some common encoding formats and conversion methods.
 
+- Forensic &amp;&amp; Stego
 
-Mainly introduce some channels for obtaining information and some tips for using search engines such as Baidu and Google.
-
-
-- Encode (encoding conversion)
-
-
-Mainly introduce some common coding forms and conversion techniques and common ways in CTF competitions.
+Steganography and Forensics involve clever encoding, hidden data, nested files, using search engines to obtain information, and so on. Topics covered are file analysis, memory image analysis, network traffic analysis, and etc.
 
 
-- Forensic &amp;&amp; Stego (Digital Forensics &amp;&amp; Stealth Analysis)
+Forensics is different in the real world. In the real world, it rarely involves clever encoding, hidden data, strings scattered and nested in files. But rather it involves mostly recovering data from a damaged file, finding evidence in a broken disk image, or extracting useful information from a memory/disk image.
 
 
-Steganography is the most important part of Misc, including file analysis, steganography, memory mirror analysis, and traffic capture analysis. It involves clever coding, hidden data, files in nested files, and flexible search. The engine gets the information it needs and so on.
+Real-world forensics requires you to find evidence of a malicious act: an attacker attacking the system or insider threat behavior by analyzing logs, memory, file system to find out the relationship between the files or data.
 
 
-Misc in CTF is different from real-life forensics. In reality, forensics rarely involves clever coding encryption, data hiding, file strings scattered around, or other brain holes.
-Challenge. Many times it is time to carefully recover a corrupted file, dig into the clues of the damaged hard drive, or extract useful information from the memory image.
-
-
-Realistic forensics requires practitioners to identify indirect evidence of malicious conduct: traces of an attacker&#39;s attack on the system, or traces of internal threatening behavior. In actual work, computer forensics mostly finds criminal clues from logs, memory, and file systems, and finds relationships with data in files or file systems. Compared with the analysis of content data, traffic forensics pays more attention to the analysis of metadata, which is the current network session with TLS encryption between different endpoints.
-
-
-Misc is the best place to cut into the CTF competition and cultivate interest. Misc examines the basics and has varying degrees of involvement in all aspects of safety skills, which can inspire thinking to a large extent.
+Misc is the perfect entry point for CTF competition since it can help you discover and develop different interests. Misc requires various understanding and skills in security and creative thinking.
 
 
 ![](figure/all.png)

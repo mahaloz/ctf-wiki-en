@@ -40,4 +40,4 @@ Real-world forensics requires you to find evidence of a malicious act: an attack
 Misc is the perfect entry point for CTF competition since it can help you discover and develop different interests. Misc requires various understanding and skills in security and creative thinking.
 
 
-![](figure/all.png)
+![](figure/mindmap-misc.png)

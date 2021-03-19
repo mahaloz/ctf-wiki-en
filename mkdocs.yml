@@ -26,9 +26,9 @@ nav:
         - Miscellaneous Introduction: misc/introduction.md
         - Information Gathering Method: misc/recon.md
         - Encoding Analysis:
-            - Commonly Used Coding in the Communication Field: misc/encode/communication.md
-            - Computer Related Coding: misc/encode/computer.md
-            - Commonly Used Encodings in the Real World: misc/encode/modern.md
+            - Encoding Used in Communication: misc/encode/communication.md
+            - Computer Encoding: misc/encode/computer.md
+            - Encoding Used in the Real World: misc/encode/modern.md
         - Forensic Steganography: misc/prefix.md
         - Image Analysis:
             - Introduction to Image Analysis: misc/picture/introduction.md

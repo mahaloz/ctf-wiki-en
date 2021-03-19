@@ -9,7 +9,7 @@
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database/)
 
 
-## Basic Searching
+## Basic Search
 
 
 - Basic Google search techniques

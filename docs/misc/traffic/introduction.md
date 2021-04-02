@@ -1,41 +1,31 @@
-## Traffic Packet Analysis
+In CTFs, analyzing traffic packets is an important part of performing an investigation.  
+
+Often the competition will provide a traffic packets PCAP file, where players need to repair or rebuild the files transferred in the PCAP file to perform analysis.
+
+PCAP is the key research direction, the complication is that the packets are filled with a lot of irrelevant traffics, so filter out the irrelevant traffics will be necessary.
 
 
-In the CTF competition, forensic analysis of traffic packets is another important direction of investigation.
+Overall, there are the following steps:
 
 
-Usually, a PCAP file containing traffic data is provided during the game, and sometimes the player is required to repair or reconstruct the transferred file before analyzing.
-
-
-The PCAP section focuses on the direction of the investigation. The complicated part is that the data packet is filled with a large amount of irrelevant traffic information. Therefore, how to classify and filter the data is the work that the entrant needs to complete.
-
-
-In general, there are the following steps
-
-
-- Overall grasp
-- Agreement rating
-- Endpoint statistics
-- Filter match selection
-- Filter syntax
-- Host, Protocol, contains, eigenvalue
-- Found an exception
-- special string
-- Agreement a field
-- flag is in the server
+- Overall Grasp
+  - Agreement Rating
+  - Endpoint Statistics
+- Filter Relevant Information
+  - Filter Syntax
+  - Host, Protocol, Contains, Flags
+- Find Exceptions
+  - Special Strings
+  - A Protocol Field
+  - Flag Located On The Server
 - Data Extraction
-- String fetch
-- File extraction
+  - Strings Extraction
+  - Files Extraction
 
 
-In general, traffic analysis in the game can be summarized in the following three directions:
+In general, CTF traffic packets analysis falls into these 3 categories:
 
 
-- Traffic packet repair
-- Protocol analysis
+- Repair Traffic Packet (PCAP) File
+- Protocol Analysis
 - Data Extraction
-
-
-
-
-

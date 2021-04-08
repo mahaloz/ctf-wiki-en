@@ -46,7 +46,7 @@ There is a unified structure for each chunk, and each chunk is composed of four 
 
 CRC（Cyclic Redundancy Check）value is calculated based on the Chunk Type Code and Chunk Data.
 
-For more details see [PNG Chunks](http://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html)
+For more details, see [PNG Chunks](http://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html)
 
 
 ### IHDR
@@ -77,7 +77,9 @@ You might be able to restore the corrupted image by changing the image’s width
 ##### WDCTF-finals-2017
 
 
-If you look at the [file](https://github.com/susers/Writeups/blob/master/2017/WDCTF-finals/Misc/2-1/misc4.png), you can see that the header and width of the PNG file are incorrect.
+> Download the challenge [here](https://github.com/susers/Writeups/blob/master/2017/WDCTF-finals/Misc/2-1/misc4.png)
+
+If you look at the file, you can see that the header and width of the PNG file are incorrect.
 
 ```hex
 00000000  80 59 4e 47 0d 0a 1a 0a  00 00 00 0d 49 48 44 52  |.YNG........IHDR|
@@ -134,10 +136,12 @@ IDAT (Image Data Chunk):It stores the actual image data which contains multiple 
 Note that IDAT will only continue to a new chunk when the previous chunk is full.
 
 
-## Example
+#### Example
 
 
 Use `pngcheck` display information about the PNG file
+
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/picture/png/2014-sctf-misc400/sctf.png)
 
 ```
 .\pngcheck.exe -v sctf.png
@@ -182,7 +186,7 @@ print result
 IEND (Image Trailer Chunk): It is used to mark the end of a PNG data stream or file, and it must be placed at the end of the file.
 
 
-## Example
+#### Example
 
 
 - IEND's chunk length is always `00 00 00 00`
@@ -221,10 +225,12 @@ With the help of StegSolve, you can find hidden information by checking LSB each
 
 ### CTF Examples
 
-#### HCTF - 2016 - Misc
+#### HCTF 2016 - pic again
 
-There is information hidden in the LSB of a color channel. Use `Stegsolve-->Analyse-->Data Extract` to extract it.
+> Download the challenge [here](https://github.com/LoRexxar/hctf2016_misc/blob/master/misc_pic_again/flag.png)
+
+There is information hidden in the LSB of the RGB colors. Use `Stegsolve-->Analyse-->Data Extract` to extract it.
 
 ![](./figure/hctfsolve.png)
 
-We can see `zip` file header, use `save bin` to save the zip file. Then, run the ELF executable to get the flag.
+We can see `zip` file header, use `save bin` to save the zip file, and run the ELF executable to obtain the flag.

@@ -124,7 +124,7 @@ Must exist, describe interface characteristics
 ### Baidu Cup - Find the Flag
 
 
-Download the challenge PCAP [here](https://static2.ichunqiu.com/icq/resources/fileupload/CTF/BSRC/2017/BSRC3-1/findtheflag.cap)
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/cap/%E7%AC%AC%E4%B8%80%E5%B1%8A%E2%80%9C%E7%99%BE%E5%BA%A6%E6%9D%AF%E2%80%9D%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%94%BB%E9%98%B2%E6%80%BB%E5%86%B3%E8%B5%9B%20%E7%BA%BF%E4%B8%8A%E9%80%89%E6%8B%94%E8%B5%9B-find%20the%20flag/findtheflag.cap)
 
 
 First, the challenge title `Find the Flag` hints that we must find the string contains `flag`.

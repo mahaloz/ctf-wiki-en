@@ -65,7 +65,7 @@ Generally speaking, we want to observe the waveform pattern of an audio file to 
 
 In fact, the hidden information in this challenge is in the first part of the audio. If you don't listen carefully, you may mistake it for steganography.
 
-Download the challenge [here](https://github.com/Windylh/CTF/raw/master/Isccctf2017/Misc/Misc-04.zip)
+> Download the challenge [here](https://github.com/Windylh/CTF/raw/master/Isccctf2017/Misc/Misc-04.zip)
 
 
 ![](./figure/3.png)
@@ -91,7 +91,7 @@ Spectrum stenography is hiding strings in the audio spectrum. One distant featur
 
 ### Su CTF Quals 2014: hear_with_your_eyes
 
-Download the challenge [here](https://github.com/ctfs/write-ups-2014/raw/master/su-ctf-quals-2014/hear_with_your_eyes/sound.wav.tar.gz)
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/audio/SharifCTF2014-Hear%20with%20your%20Eyes/sound.wav)
 
 Open the audio in `Audacity`and view the spectrogram.
 

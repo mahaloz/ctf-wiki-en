@@ -60,7 +60,7 @@ Convert letters to ASCII hexadecimal representation.
 - [ASCII,Hex,Binary,Decimal,Base64 Converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 
 
-## Examples and Related CTF Challenges:
+## CTF Examples
 
 
 ![ascii](./figure/ascii-example.png)
@@ -137,7 +137,7 @@ Refer to the table below:
 - Characters set differ from different bases.
 - **It may be necessary to manually add `=` sign**
 - **`=` is also 3d (in hex)**
-- For more information, [Base RFC](https://tools.ietf.org/html/rfc4648)
+- For more details, see [Base RFC](https://tools.ietf.org/html/rfc4648)
 
 
 ### Tools
@@ -149,10 +149,10 @@ Refer to the table below:
 - [Steganographic Script](https://github.com/cjcslhp/wheels/tree/master/b64stego)
 
 
-### Examples and Related CTF Challenges:
+### Examples
 
 
-The challenge details can be found in the **data.txt** file on `ctf-challenge` [base64-stego](https://github.com/ctf-wiki/ctf-challenges/tree/master/misc/encode/computer/base64-stego)
+> The challenge details can be found in the **data.txt** file on [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/encode/computer/base64-stego/data.txt)
 
 Use a script to read steganographic information:
 

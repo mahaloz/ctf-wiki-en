@@ -27,14 +27,15 @@ nav:
         - Information Gathering Method: misc/recon.md
         - Encoding Analysis:
             - Encoding Used in Communication: misc/encode/communication.md
-            - Computer Encoding: misc/encode/computer.md
+            - Encoding Used in Computing: misc/encode/computer.md
             - Encoding Used in the Real World: misc/encode/modern.md
-        - Forensic Steganography: misc/prefix.md
+        - Forensic and Steganography Prerequisite: misc/prereq.md
         - Image Analysis:
             - Introduction to Image Analysis: misc/picture/introduction.md
             - PNG: misc/picture/png.md
             - JPG: misc/picture/jpg.md
             - GIF: misc/picture/gif.md
+        - Audio Steganography: misc/audio/introduction.md
         - Traffic Packet Analysis:
             - Introduction to Traffic Packet Analysis: misc/traffic/introduction.md
             - PCAP File Repairing: misc/traffic/fix.md
@@ -51,7 +52,6 @@ nav:
         - Compressed Package Analysis:
             - ZIP Format: misc/archive/zip.md
             - RAR Format: misc/archive/rar.md
-        - Audio Steganography: misc/audio/introduction.md
         - Disk and Memory Analysis:
             - Introduction: misc/disk-memory/introduction.md
             - Title: misc/disk-memory/problem.md

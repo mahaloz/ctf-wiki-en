@@ -60,7 +60,7 @@ Finally, we get to the actual image data. The image data is composed of a series
 
 The trailer block indicates when you've reached the end of the file. It is always a byte `3B`.
 
-For more details see [what is in a GIF](http://giflib.sourceforge.net/whatsinagif/bits_and_bytes.html)
+For more details, see [what is in a GIF](http://giflib.sourceforge.net/whatsinagif/bits_and_bytes.html)
 
 
 
@@ -106,6 +106,8 @@ The beginning `03f3` is the header of a `pyc` file, restore it to `python` execu
 
 ### XMAN-2017:100.gif
 
+
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/picture/gif/2017-xman-100.gif/100_KHf05OI.gif)
 
 The time interval between each frame of a GIF file can also be used hide information.
 

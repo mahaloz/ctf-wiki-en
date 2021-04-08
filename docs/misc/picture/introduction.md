@@ -16,7 +16,7 @@ Next, we introduce an `identify` command, which is used to get the format and ch
 
 `-format` is used to specify the information displayed, and the `-format` option can make a problem easier to solve.
 
-For more details see [Format Option Usage](https://www.imagemagick.org/script/escape.php)
+For more details, see [Format Option Usage](https://www.imagemagick.org/script/escape.php)
 
 
 ### CTF Examples

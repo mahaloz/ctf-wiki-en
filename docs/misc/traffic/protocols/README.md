@@ -1,13 +1,13 @@
-A network protocol is a collection of rules, standards, or conventions established for data exchange in a computer network. For example, a computer user in the network communicates with an operator of a mainframe. Since the character sets used by the two data terminals are different, the commands entered by the operator are not known to each other. In order to communicate, it is stipulated that each terminal first converts the characters in the respective character sets into the characters of the standard character set, and then enters the network transmission, and after reaching the destination terminal, it is converted into the character of the terminal character set. Of course, for incompatible terminals, in addition to changing the character set characters, other characteristics, such as display format, line length, number of lines, and screen scrolling mode, need to be converted accordingly.
+A network protocol is an established set of rules that determine how data is transmitted between different devices in the same network. Essentially, it allows connected devices to communicate with each other, regardless of any differences in their internal processes, structure or design.
 
+Network protocols are the reason you can easily communicate with people all over the world, and thus play a critical role in modern digital communications.
 
-Correspondingly, in the chapter on protocol analysis, we will introduce this part of the knowledge from the following aspects:
+In this selection on protocol analysis, we will cover the following:
 
-
-- Introduction to the commonly used functions of `Wireshark`
-- `HTTP` protocol analysis
-- `HTTPS` protocol analysis
-- `FTP` protocol analysis
-- `DNS` protocol analysis
-- `WIFI` protocol analysis
-- `USB` protocol analysis
+- `Wireshark` Common Features
+- `HTTP` Protocol Analysis
+- `HTTPS` Protocol Analysis
+- `FTP` Protocol Analysis
+- `DNS` Protocol Analysis
+- `WIFI` Protocol Analysis
+- `USB` Protocol Analysis

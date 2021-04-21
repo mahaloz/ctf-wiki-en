@@ -97,8 +97,7 @@ Remove the rest of the fields in `qry.name`, leaving only `data` part, thus merg
 
 
 !!! note
-
-run this script in Python2.7
+    Run this script in Python2
 
 
 ```python

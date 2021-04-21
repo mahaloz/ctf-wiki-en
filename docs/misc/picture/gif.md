@@ -143,7 +143,7 @@ print(func2(strr,key))
 ```
 
 !!! note
-Run the script using python2.7
+    Run the script using Python2
 
 
 ```shell

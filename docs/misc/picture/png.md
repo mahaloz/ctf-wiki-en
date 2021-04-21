@@ -227,7 +227,7 @@ With the help of StegSolve, you can find hidden information by checking LSB each
 
 #### HCTF 2016 - pic again
 
-> Download the challenge [here](https://github.com/LoRexxar/hctf2016_misc/blob/master/misc_pic_again/flag.png)
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/picture/png/hctf2016-pic-again.png)
 
 There is information hidden in the LSB of the RGB colors. Use `Stegsolve-->Analyse-->Data Extract` to extract it.
 

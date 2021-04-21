@@ -65,7 +65,7 @@ Generally speaking, we want to observe the waveform pattern of an audio file to 
 
 In fact, the hidden information in this challenge is in the first part of the audio. If you don't listen carefully, you may mistake it for steganography.
 
-> Download the challenge [here](https://github.com/Windylh/CTF/raw/master/Isccctf2017/Misc/Misc-04.zip)
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/audio/ISCC-2017-Disco.wav)
 
 
 ![](./figure/3.png)

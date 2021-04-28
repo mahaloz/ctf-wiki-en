@@ -54,8 +54,6 @@ nav:
             - RAR Format: misc/archive/rar.md
         - Disk and Memory Analysis:
             - Introduction: misc/disk-memory/introduction.md
-        - Other:
-            - pyc File: misc/other/pyc.md
     - Crypto:
         - Introduction to Cryptography: crypto/introduction.md
         - Basic Mathematics:

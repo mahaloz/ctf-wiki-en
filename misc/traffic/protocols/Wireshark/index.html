@@ -16,7 +16,7 @@
         <link rel="canonical" href="https://ctf-wiki.mahaloz.re/misc/traffic/protocols/Wireshark/">
       
       <link rel="icon" href="../../../..">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.77f3fd56.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.e35208c4.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ef6f36e2.min.css">
         
           
           
@@ -61,8 +61,9 @@
     
     
     <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="purple">
-      
   
+    
+    <script>function __prefix(e){return new URL("../../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -70,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#wireshark-introduction-to-common-functions" class="md-skip">
+        <a href="#wireshark-common-features" class="md-skip">
           Skip to content
         </a>
       
@@ -84,7 +85,7 @@
     <a href="../../../.." title="CTF Wiki EN" class="md-header__button md-logo" aria-label="CTF Wiki EN" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -106,9 +107,8 @@
         </div>
       </div>
     </div>
-    <div class="md-header__options">
-      
-    </div>
+    
+    
     
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
@@ -124,7 +124,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
       <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
@@ -146,7 +146,7 @@
 <a href="https://github.com/mahaloz/ctf-wiki-en/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     mahaloz/ctf-wiki-en
@@ -372,7 +372,7 @@
     <a href="../../../.." title="CTF Wiki EN" class="md-nav__button md-logo" aria-label="CTF Wiki EN" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
 
     </a>
     CTF Wiki EN
@@ -383,7 +383,7 @@
 <a href="https://github.com/mahaloz/ctf-wiki-en/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     mahaloz/ctf-wiki-en
@@ -556,13 +556,13 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
       
       <label class="md-nav__link" for="__nav_2_3">
-        Code Analysis
+        Encoding Analysis
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Code Analysis" data-md-level="2">
+      <nav class="md-nav" aria-label="Encoding Analysis" data-md-level="2">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Code Analysis
+          Encoding Analysis
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -572,7 +572,7 @@
   
     <li class="md-nav__item">
       <a href="../../../encode/communication/" class="md-nav__link">
-        Commonly Used Coding in the Communication Field
+        Encoding Used in Communication
       </a>
     </li>
   
@@ -584,7 +584,7 @@
   
     <li class="md-nav__item">
       <a href="../../../encode/computer/" class="md-nav__link">
-        Computer Related Coding
+        Encoding Used in Computing
       </a>
     </li>
   
@@ -596,7 +596,7 @@
   
     <li class="md-nav__item">
       <a href="../../../encode/modern/" class="md-nav__link">
-        Commonly Used Encodings in the Real World
+        Encoding Used in the Real World
       </a>
     </li>
   
@@ -613,8 +613,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../prefix/" class="md-nav__link">
-        Forensic Steganography
+      <a href="../../../prereq/" class="md-nav__link">
+        Forensic and Steganography Prerequisite
       </a>
     </li>
   
@@ -658,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../picture/png.md" class="md-nav__link">
+      <a href="../../../picture/png/" class="md-nav__link">
         PNG
       </a>
     </li>
@@ -698,6 +698,18 @@
             
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../../audio/introduction/" class="md-nav__link">
+        Audio Steganography
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
     
   
   
@@ -705,14 +717,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" checked>
       
-      <label class="md-nav__link" for="__nav_2_6">
+      <label class="md-nav__link" for="__nav_2_7">
         Traffic Packet Analysis
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Traffic Packet Analysis" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_6">
+        <label class="md-nav__title" for="__nav_2_7">
           <span class="md-nav__icon md-icon"></span>
           Traffic Packet Analysis
         </label>
@@ -752,14 +764,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6_3" type="checkbox" id="__nav_2_6_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7_3" type="checkbox" id="__nav_2_7_3" checked>
       
-      <label class="md-nav__link" for="__nav_2_6_3">
+      <label class="md-nav__link" for="__nav_2_7_3">
         Protocol Analysis
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Protocol Analysis" data-md-level="3">
-        <label class="md-nav__title" for="__nav_2_6_3">
+        <label class="md-nav__title" for="__nav_2_7_3">
           <span class="md-nav__icon md-icon"></span>
           Protocol Analysis
         </label>
@@ -788,6 +800,7 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+      
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Wireshark
           <span class="md-nav__icon md-icon"></span>
@@ -802,6 +815,7 @@
   
   
   
+  
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
@@ -809,24 +823,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wireshark-introduction-to-common-functions" class="md-nav__link">
-    Wireshark Introduction to Common Functions
+  <a href="#wireshark-common-features" class="md-nav__link">
+    Wireshark Common Features
   </a>
   
-    <nav class="md-nav" aria-label="Wireshark Introduction to Common Functions">
+    <nav class="md-nav" aria-label="Wireshark Common Features">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#display-filter" class="md-nav__link">
-    Display filter
+    Display Filter
   </a>
   
-    <nav class="md-nav" aria-label="Display filter">
+    <nav class="md-nav" aria-label="Display Filter">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#configuration-method" class="md-nav__link">
-    Configuration Method
+  <a href="#filter-methods" class="md-nav__link">
+    Filter Methods
   </a>
   
 </li>
@@ -837,37 +851,37 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#information-statistics" class="md-nav__link">
-    Information Statistics
+  <a href="#statistics-information" class="md-nav__link">
+    Statistics Information
   </a>
   
-    <nav class="md-nav" aria-label="Information Statistics">
+    <nav class="md-nav" aria-label="Statistics Information">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#protocol-history" class="md-nav__link">
-    Protocol History
+  <a href="#protocol-hierarchy" class="md-nav__link">
+    Protocol Hierarchy
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#conversationdialog" class="md-nav__link">
-    Conversation(Dialog)
+  <a href="#conversations" class="md-nav__link">
+    Conversations
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#endpoints-endpoints" class="md-nav__link">
-    EndPoints (Endpoints)
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#http" class="md-nav__link">
-    HTTP
+  <a href="#http-packet-counter" class="md-nav__link">
+    HTTP - Packet Counter
   </a>
   
 </li>
@@ -877,22 +891,8 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#information-statistics-advanced-edition" class="md-nav__link">
-    Information Statistics Advanced Edition
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
-  </a>
   
 </li>
       
@@ -1008,14 +1008,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
       
-      <label class="md-nav__link" for="__nav_2_7">
+      <label class="md-nav__link" for="__nav_2_8">
         Compressed Package Analysis
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Compressed Package Analysis" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_7">
+        <label class="md-nav__title" for="__nav_2_8">
           <span class="md-nav__icon md-icon"></span>
           Compressed Package Analysis
         </label>
@@ -1055,18 +1055,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../audio/introduction/" class="md-nav__link">
-        Audio Steganography
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
     
     <li class="md-nav__item md-nav__item--nested">
       
@@ -1091,57 +1079,6 @@
     <li class="md-nav__item">
       <a href="../../../disk-memory/introduction/" class="md-nav__link">
         Introduction
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../disk-memory/problem/" class="md-nav__link">
-        Title
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_10" type="checkbox" id="__nav_2_10" >
-      
-      <label class="md-nav__link" for="__nav_2_10">
-        Other
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Other" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_10">
-          <span class="md-nav__icon md-icon"></span>
-          Other
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../other/pyc/" class="md-nav__link">
-        pyc File
       </a>
     </li>
   
@@ -4964,6 +4901,7 @@
   
   
   
+  
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
@@ -4971,24 +4909,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wireshark-introduction-to-common-functions" class="md-nav__link">
-    Wireshark Introduction to Common Functions
+  <a href="#wireshark-common-features" class="md-nav__link">
+    Wireshark Common Features
   </a>
   
-    <nav class="md-nav" aria-label="Wireshark Introduction to Common Functions">
+    <nav class="md-nav" aria-label="Wireshark Common Features">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#display-filter" class="md-nav__link">
-    Display filter
+    Display Filter
   </a>
   
-    <nav class="md-nav" aria-label="Display filter">
+    <nav class="md-nav" aria-label="Display Filter">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#configuration-method" class="md-nav__link">
-    Configuration Method
+  <a href="#filter-methods" class="md-nav__link">
+    Filter Methods
   </a>
   
 </li>
@@ -4999,37 +4937,37 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#information-statistics" class="md-nav__link">
-    Information Statistics
+  <a href="#statistics-information" class="md-nav__link">
+    Statistics Information
   </a>
   
-    <nav class="md-nav" aria-label="Information Statistics">
+    <nav class="md-nav" aria-label="Statistics Information">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#protocol-history" class="md-nav__link">
-    Protocol History
+  <a href="#protocol-hierarchy" class="md-nav__link">
+    Protocol Hierarchy
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#conversationdialog" class="md-nav__link">
-    Conversation(Dialog)
+  <a href="#conversations" class="md-nav__link">
+    Conversations
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#endpoints-endpoints" class="md-nav__link">
-    EndPoints (Endpoints)
+  <a href="#endpoints" class="md-nav__link">
+    Endpoints
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#http" class="md-nav__link">
-    HTTP
+  <a href="#http-packet-counter" class="md-nav__link">
+    HTTP - Packet Counter
   </a>
   
 </li>
@@ -5039,22 +4977,8 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#information-statistics-advanced-edition" class="md-nav__link">
-    Information Statistics Advanced Edition
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    
-  </a>
   
 </li>
       
@@ -5077,12 +5001,13 @@
                 
                   <h1>Wireshark</h1>
                 
-                <h2 id="wireshark-introduction-to-common-functions">Wireshark Introduction to Common Functions<a class="headerlink" href="#wireshark-introduction-to-common-functions" title="Permanent link">&para;</a></h2>
-<h3 id="display-filter">Display filter<a class="headerlink" href="#display-filter" title="Permanent link">&para;</a></h3>
-<p>Display filters can use many different parameters as matching criteria, such as IP address, protocol, port number, and parameters of some protocol headers. In addition, users use some conditional tools and concatenation operators to create more complex expressions. Users can combine different expressions to make the software display a more precise range of packets. All packets displayed in the packet list panel can be filtered with the fields contained in the packet.</p>
+                <h2 id="wireshark-common-features">Wireshark Common Features<a class="headerlink" href="#wireshark-common-features" title="Permanent link">&para;</a></h2>
+<h3 id="display-filter">Display Filter<a class="headerlink" href="#display-filter" title="Permanent link">&para;</a></h3>
+<p>Display filters can use several different parameters as matching criteria, such as IP address, protocol, port number, and some protocol header’s parameters. In addition, users use some conditionals and concatenation operators to create more complex expressions. Users can combine different expressions to filter out a precise range of packets. All packets displayed can be filtered by bytes within the packets.</p>
+<p>A display filter follows this structure:</p>
 <div class="highlight"><pre><span></span><code>[not] Expression [and|or] [not] Expression
 </code></pre></div>
-<p>Often use a variety of operators</p>
+<p>Often used operators:</p>
 <table>
 <thead>
 <tr>
@@ -5092,94 +5017,92 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
+<td>==</td>
+<td>Equal</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Not Equal</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater Than</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less Than</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater Than or Equal To</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less Than or Equal To</td>
+</tr>
+<tr>
+<td>&amp;&amp;</td>
+<td>AND</td>
+</tr>
+<tr>
+<td>||</td>
+<td>OR</td>
+</tr>
+<tr>
+<td>!</td>
+<td>NOT</td>
 </tr>
 </tbody>
 </table>
-<p>| == | equals |
-| != | Not equal |
-| &gt; | Greater than |
-| &lt; | Less than |
-| &gt;= | Greater than or equal to |
-| &lt;= | Less than or equal to |
-| with | and , &amp;&amp; |
-| 或     | or , || |</p>
-<p>| non| ! , not |</p>
-<h4 id="configuration-method">Configuration Method<a class="headerlink" href="#configuration-method" title="Permanent link">&para;</a></h4>
-<p>By means of the filter window</p>
+<h4 id="filter-methods">Filter Methods<a class="headerlink" href="#filter-methods" title="Permanent link">&para;</a></h4>
+<p>There are many ways to do display filter:</p>
+<ul>
+<li>
+<p>Display filter expression</p>
+<p><code>Analyze --&gt; Display Filter Expression</code></p>
+</li>
+</ul>
 <p><img alt="filter_window" src="../figure/filter_window.png" /></p>
-<ol>
-<li>With the help bar of the toolbar</li>
-</ol>
+<ul>
+<li>Display filter toolbar</li>
+</ul>
 <p><img alt="filter_tool" src="../figure/filter_tool.png" /></p>
-<ol>
-<li>Specify a property value for the packet as a filter</li>
-</ol>
+<ul>
+<li>Right-clicking on a specific filed and Apply Selected As Filter</li>
+</ul>
 <p><img alt="filter_select" src="../figure/filter_select.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 </div>
-<p>Complex filtering commands can be filtered directly in the third way.</p>
-<h3 id="information-statistics">Information Statistics<a class="headerlink" href="#information-statistics" title="Permanent link">&para;</a></h3>
-<h4 id="protocol-history">Protocol History<a class="headerlink" href="#protocol-history" title="Permanent link">&para;</a></h4>
-<p>The reality of this window is to capture the tree branch of all the protocols contained in the file.</p>
+<p>You can obtain the complex filtering expression with this method.</p>
+<h3 id="statistics-information">Statistics Information<a class="headerlink" href="#statistics-information" title="Permanent link">&para;</a></h3>
+<h4 id="protocol-hierarchy">Protocol Hierarchy<a class="headerlink" href="#protocol-hierarchy" title="Permanent link">&para;</a></h4>
+<p><code>Statistics --&gt; Protocol Hierarchy</code></p>
+<p>A hierarchy of all the protocols contained in the file.</p>
 <p><img alt="pro_his" src="../figure/pro_his.png" /></p>
-<p>Included fields</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>| Protocol: | Protocol Name|
-| % Packets: | The number of packages containing this protocol is the ratio of all packets in the capture file |
-| Packets: | Number of packages containing this protocol |
-| Bytes: | Number of bytes containing this protocol |
-| Mbit/s: | Protocol Bandwidth in Capture Time |
-End Packets: | Number of packets in the protocol (as the highest protocol layer in the file) |
-| End Bytes: | The number of bytes in the protocol (as the highest protocol layer in the file) |
-End Mbit/s: | Protocol bandwidth during capture time (as the highest protocol layer in the file) |</p>
-<p>This feature can provide a basis for analyzing the main directions of the data packet.</p>
-<h4 id="conversationdialog">Conversation(Dialog)<a class="headerlink" href="#conversationdialog" title="Permanent link">&para;</a></h4>
-<p>All traffic between IPs that occur at a particular endpoint.</p>
+<h4 id="conversations">Conversations<a class="headerlink" href="#conversations" title="Permanent link">&para;</a></h4>
+<p><code>Statistics --&gt; Conversations</code></p>
+<p>All traffic occurring between IP addresses of a particular endpoint.</p>
 <p><img alt="Conversation" src="../figure/conversation.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 </div>
 <ul>
-<li>View the IP address that sends and receives a large number of data streams. If it&#39;s the server you know (you remember the server&#39;s address or address range), then the problem is solved; but it&#39;s also possible that just one device is scanning the network, or just a PC that generates too much data.</li>
-<li>View the scan pattern. This may be a normal scan, such as SNMP software sending ping messages to find the network, but usually scanning is not a good thing</li>
+<li>
+<p>Check the IP address that sent or received many data streams. If you know that server, then the problem is solved. However, it’s possible that is it just some device scanning the network or generating a large amount of data.</p>
+</li>
+<li>
+<p>Check for scan patterns. If a device made one scan, then that’s likely normal. For example, SNMP software sent a ping message to find the network. However, if there are many scans, then something fishy is happening.</p>
+</li>
 </ul>
-<h4 id="endpoints-endpoints">EndPoints (Endpoints)<a class="headerlink" href="#endpoints-endpoints" title="Permanent link">&para;</a></h4>
-<p>This tool lists statistics on all endpoints found by Wireshark.</p>
+<h4 id="endpoints">Endpoints<a class="headerlink" href="#endpoints" title="Permanent link">&para;</a></h4>
+<p><code>Statistics --&gt; Endpoints</code></p>
+<p>List all endpoints found by Wireshark.</p>
 <p><img alt="points" src="../figure/points.png" /></p>
-<h4 id="http">HTTP<a class="headerlink" href="#http" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Packet Counter</li>
-</ul>
+<h4 id="http-packet-counter">HTTP - Packet Counter<a class="headerlink" href="#http-packet-counter" title="Permanent link">&para;</a></h4>
+<p><code>Statistics --&gt; HTTP --&gt; Packet Counter</code></p>
+<p>Count HTTP packets.</p>
 <p><img alt="pac_count" src="../figure/pac_count.png" /></p>
-<p><strong>reference</strong></p>
-<ul>
-<li>
-<p><a href="http://blog.jobbole.com/73482/">http://blog.jobbole.com/73482/</a></p>
-</li>
-<li>
-<p><a href="http://www.vuln.cn/2103">http://www.vuln.cn/2103</a></p>
-</li>
-</ul>
-<h3 id="information-statistics-advanced-edition">Information Statistics Advanced Edition<a class="headerlink" href="#information-statistics-advanced-edition" title="Permanent link">&para;</a></h3>
-<p>Quickly grasp the overall characteristics of the traffic package based on the overall information, and figure out what to do?**</p>
-<p>ALL</p>
-<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
                 
               
               
@@ -5216,6 +5139,7 @@ End Mbit/s: | Protocol bandwidth during capture time (as the highest protocol la
             </article>
           </div>
         </div>
+        
       </main>
       
         
@@ -5277,10 +5201,10 @@ End Mbit/s: | Protocol bandwidth during capture time (as the highest protocol la
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.16f9b99f.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
       
         <script src="https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js"></script>
       

@@ -1,4 +1,4 @@
-## PCAP file structure
+## PCAP File Structure
 
 In general, there are few investigations about the `PCAP` file format, and usually can be directly repaired by means of off-the-shelf tools such as `pcapfix`.
 
@@ -34,13 +34,13 @@ The common block types defined are:
 
 2. Interface Description Block: it defines the most important characteristics of the interface(s) used for capturing traffic.
 
-3. Packet Block: it contains a single captured packet, or a portion of it.
+3. Packet Block: it contains a single captured packet or a portion of it.
 
 4. Simple Packet Block: it contains a single captured packet, or a portion of it, with only a minimal set of information about it.
 
 5. Name Resolution Block: it defines the mapping from numeric addresses present in the packet dump and the canonical name counterpart.
 
-6. Capture Statistics Block: it defines how to store some statistical data (e.g. packet dropped, etc) which can be useful to undestand the conditions in which the capture has been made.
+6. Capture Statistics Block: it defines how to store some statistical data (e.g. packet dropped, etc) which can be useful to understand the conditions in which the capture has been made.
 
 
 ## Common Blocks
@@ -118,7 +118,7 @@ Must exist, describe interface characteristics
 ```
 
 
-## CTF Examples
+## CTF Example
 
 
 ### Baidu Cup - Find the Flag
@@ -195,11 +195,6 @@ When we follow `tcp.stream eq 29`, we saw `lf` in the `Identification` message. 
 
 We can find the remaining parts of the flag by using the search by strings feature in `wireshark`.
 Edit --> Find Packet --> Select Packet bytes --> Select Narrow & Wide --> Select String, then enter `flag` in search field.
-
-You can then find all the remaining
-search keyword `flag`, and connecting the fields corresponding to the `Identification` information of the subsequent connected packets in the same way. !
-
-In the same way, we can find fields corresponding to the Identification information and the remaining values for the flag!
 
 
 Here are the screenshots of the search:

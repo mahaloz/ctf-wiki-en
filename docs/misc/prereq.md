@@ -3,7 +3,7 @@ In most CTF competitions, both forensics and steganography are inseparable. The 
 Any requirement that requires finding hidden information in a static file is considered a forensics steganography question (unless it’s purely cryptography). Some low-point questions do combine forensics steganography and classic ciphers. The high score questions, however, are usually combined with some more complex modern cryptography. This well reflects the characteristics of Misc questions.
 
 
-## Pre-skills
+## Basic Required Skills 
 
 
 - Familiar with common encodings. Able to decode encoded text found in files. Can identify some special encodings (base64, hexadecimal, binary, etc.) and convert them to obtain the flags.
@@ -76,7 +76,7 @@ data[0] = '\x89'
 ```
 
 
-## Common tools
+## Common Tools
 
 
 ### [010 Editor](http://www.sweetscape.com/010editor/)
@@ -90,7 +90,7 @@ Its templating feature makes it very easy to observe the internal structure of a
 ![010 Editor](figure/010.png)
 
 
-### `file` command
+### `file` Command
 
 
 The `file` command identifies the file type of a file based on the file header (magic bytes).
@@ -101,7 +101,7 @@ flag: PNG image data, 450 x 450, 8-bit grayscale, non-interlaced
 ```
 
 
-### `strings` command
+### `strings` Command
 
 
 Print or display the printable characters of a file. Often you can discover hints or encoded information in the printable characters.
@@ -129,7 +129,7 @@ Print or display the printable characters of a file. Often you can discover hint
     ```
 
 
-### `binwalk` command
+### `binwalk` Command
 
 
 `binwalk` is a firmware analysis tool. In CTFs, `binwalk` is often used to discover multiple files hidden in a file. Furthermore, the tool uses the file header (magic bytes) to find other files contained in a file. Sometimes, there are false positives (especially for a PCAP, packet capture, file).

@@ -1,7 +1,7 @@
 ## File Structure
 
 
-- JPEG has a lossy compression format, the pixel information is saved into a file and then readout, some of the pixel values will have a little change. There is a quality parameter that can be set between 0 and 100 when saving. The larger the parameter, the more fidelity the picture has. In general, 70 or 80 is sufficient
+- JPEG has a lossy compression format, the pixel information is saved into a file and then read out, some of the pixel values will have a little change. There is a quality parameter that can be set between 0 and 100 when saving. The larger the parameter, the more fidelity the picture has. In general, 70 or 80 is sufficient
 
 - JPEG has no transparency information
 

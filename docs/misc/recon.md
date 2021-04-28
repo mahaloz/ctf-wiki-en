@@ -28,7 +28,7 @@
 - Google Map, Google Earth, Google Street View
 
 
-## IP address search
+## IP Address Lookup
 
 
 - whois database

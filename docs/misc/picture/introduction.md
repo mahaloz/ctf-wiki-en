@@ -19,10 +19,11 @@ Next, we introduce an `identify` command, which is used to get the format and ch
 For more details, see [Format Option Usage](https://www.imagemagick.org/script/escape.php)
 
 
-### CTF Examples
+### CTF Example
 
+#### Break In 2017 - Mysterious GIF
 
-[Break In 2017 - Mysterious GIF](https://github.com/ctfs/write-ups-2017/tree/master/breakin-ctf-2017/misc/Mysterious-GIF)
+> Download the challenge file [here](https://github.com/ctfs/write-ups-2017/blob/master/breakin-ctf-2017/misc/Mysterious-GIF/Question.gif)
 
 One of the difficulties in this problem is to find and extract the metadata in GIF.
 

@@ -71,7 +71,7 @@ You can see here Kali won’t open the image, showing the `IHDR CRC error`. This
 You might be able to restore the corrupted image by changing the image’s width and length, or file header back to the correct values.
 
 
-#### CTF Examples
+#### CTF Example
 
 
 ##### WDCTF-finals-2017
@@ -90,7 +90,7 @@ If you look at the file, you can see that the header and width of the PNG file a
 ...
 ```
 
-Note that you can't just randomly change the image's width, you need to brute force the width based on the IHDR chunk's CRC value (see Python script blow).
+Note that you can't just randomly change the image's width, you need to brute force the width based on the IHDR chunk's CRC value (see Python script below).
 
 
 ```python
@@ -126,7 +126,7 @@ PLTE (Palette Chunk): It contains from 1 to 256 palette entries, each a three-by
 ### IDAT
 
 
-IDAT (Image Data Chunk):It stores the actual image data which contains multiple image chucks in the data stream.
+IDAT (Image Data Chunk): It stores the actual image data which contains multiple image chucks in the data stream.
 -   Stores image data
 -   Contains multiple image chucks in the data stream
 -   Uses a derivative of LZ77 algorithm to perform compression
@@ -136,7 +136,10 @@ IDAT (Image Data Chunk):It stores the actual image data which contains multiple 
 Note that IDAT will only continue to a new chunk when the previous chunk is full.
 
 
-#### Example
+#### CTF Example
+
+
+##### sctf 2014 - misc
 
 
 Use `pngcheck` display information about the PNG file
@@ -166,10 +169,10 @@ We can see when the first IDAT is full (length `65524`), it continued to the sec
 
 The second to last IDAT length is `45027` and the last IDAT length is `138`.
 
-Clearly, something is wrong at the last IDAT because the second to last IDAT is not full.
+Clearly, something is wrong with the last IDAT because the second to last IDAT is not full.
 
 
-Use `python` and `zlib` to decompress the content of the last IDAT. Note that **length, chunk type and CRC check value at the end** are excluded.
+Use `python` and `zlib` to decompress the content of the last IDAT. Note that **length, chunk type, and CRC check value at the end** are excluded.
 
 ```python
 import zlib
@@ -223,7 +226,7 @@ In the following image, we found the hidden information by checking LSB on the r
 With the help of StegSolve, you can find hidden information by checking LSB each color channel.
 
 
-### CTF Examples
+### CTF Example
 
 #### HCTF 2016 - pic again
 

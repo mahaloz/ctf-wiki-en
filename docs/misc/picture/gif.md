@@ -29,7 +29,7 @@ The file version number is also composed of three bytes, `87a` or `89a`.
 ### Logical Screen Descriptor
 
 
-Logical Screen Descriptor always located right after the header. This tells the decoder how big the image will be. It is exactly 7 bytes long. It starts with the canvas width and canvas height.
+The Logical Screen Descriptor is always located right after the header. This tells the decoder how big the image will be. It is exactly 7 bytes long. It starts with the canvas width and canvas height.
 
 
 ### Global Color Table
@@ -52,7 +52,7 @@ Each image begins with an image descriptor block, which is exactly 10 bytes long
 ### Image Data
 
 
-Finally, we get to the actual image data. The image data is composed of a series of output codes which tell the decoder which colors to emit to the canvas. These codes are combined into the bytes that make up the block.
+Finally, we get to the actual image data. The image data is composed of a series of output codes that tell the decoder which colors to emit to the canvas. These codes are combined into the bytes that make up the block.
 
 
 ### File Trailer
@@ -70,7 +70,7 @@ For more details, see [what is in a GIF](http://giflib.sourceforge.net/whatsinag
 ### WDCTF-2017:3-2
 
 
-The animation in GIFs are made up of a sequence of frames, each frame can be an image that contains hidden information.
+The animation in GIFs is made up of a sequence of frames, each frame can be an image that contains hidden information.
 
 You can use the `convert` command to separate each frame in the GIF file.
 
@@ -103,7 +103,7 @@ After scanning the QR code, you get a string of hexadecimal strings.
 
 `03f30d0ab8c1aa5 .... 74080006030908`
 
-The beginning `03f3` is the header of a `pyc` file, restore it to `python` executable and run it to get the flag.
+The beginning `03f3` is the header of a `pyc` file, restore it to `python` executable, and run it to get the flag.
 
 Here is the decompiled code using uncompyle6:
 
@@ -157,7 +157,7 @@ flag{U_r_Greatt!}
 
 > Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/picture/gif/2017-xman-100.gif/100_KHf05OI.gif)
 
-The time interval between each frame of a GIF file can also be used hide information.
+The time interval between each frame of a GIF file can also be used to hide information.
 
 By using the `identify` command, we printed the time interval of each frame.
 

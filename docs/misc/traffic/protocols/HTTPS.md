@@ -5,7 +5,7 @@
 `HTTPs = HTTP + SSL / TLS`. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
 
 
-### CTF Examples
+### CTF Example
 
 
 #### hack-dat-kiwi-ctf-2015: ssl-sniff-2
@@ -15,7 +15,7 @@
 
 Open the PCAP file in Wireshark, you will find `TLS` encrypted data.
 
-We are given `server.key.insecure` key, so we need to import that key in order to decrypt the packets.
+We are given the `server.key.insecure` key, so we need to import that key in order to decrypt the packets.
 
 
 There are two ways to get to the `TLS` Preferences page:
@@ -25,7 +25,7 @@ There are two ways to get to the `TLS` Preferences page:
 2. `Right click on a TSL packet --> Transport Layer Security --> Open Transport Layer Security preferences`
 
 
-After you get to the `TLS` Preferences page, click on `Edit...` next to RSA keys list.
+After you get to the `TLS` Preferences page, click on `Edit...` next to the RSA keys list.
 
 Then, add the `server.key.insecure` file to `Key File` and hit `OK`.
 

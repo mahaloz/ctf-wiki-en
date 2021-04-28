@@ -60,7 +60,7 @@ Convert letters to ASCII hexadecimal representation.
 - [ASCII,Hex,Binary,Decimal,Base64 Converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 
 
-## CTF Examples
+## CTF Example
 
 
 ![ascii](./figure/ascii-example.png)
@@ -149,7 +149,7 @@ Refer to the table below:
 - [Steganographic Script](https://github.com/cjcslhp/wheels/tree/master/b64stego)
 
 
-### Examples
+### Example
 
 
 > The challenge details can be found in the **data.txt** file on [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/encode/computer/base64-stego/data.txt)
@@ -241,7 +241,7 @@ See [Unicode - Wikipedia](https://en.wikipedia.org/wiki/Unicode)
 **Note that it can take four different forms**
 
 
-### Examples
+### Example
 
 
 Source text: `The`

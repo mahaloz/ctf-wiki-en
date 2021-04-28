@@ -318,7 +318,7 @@ Then we got this output:
 ```
 
 
-We can see that this is autokey cipher, but how do we decode it without the key?
+We can see that this is a autokey cipher, but how do we decode it without the key?
 
 I found this [script](http://www.practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-autokey-cipher/), which brute force the key.
 
@@ -436,7 +436,7 @@ IS
 JHAWLZKEWXHNCDHSLWBAQJTUQZDXZQPF
 ```
 
-Last line is `flag`: `flag{JHAWLZKEWXHNCDHSLWBAQJTUQZDXZQPF}`
+The last line contains the flag: `flag{JHAWLZKEWXHNCDHSLWBAQJTUQZDXZQPF}`
 
 
 ### Related CTF Challenges

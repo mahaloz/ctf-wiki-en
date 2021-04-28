@@ -25,7 +25,7 @@ These observations can be drawn:
 From this picture, we can see blind SQL injection is in traffic packets.
 
 
-At this point, you can determine the direction to obtain the flag: extracting all the URLs, then can use `Python`.
+At this point, you can determine the direction to obtain the flag: extracting all the URLs, then use `Python`.
 
 - Extract URLs: `tshark -r hack.pcap -T fields  -e http.request.full_uri|tr -s '\n' | grep flag > log`
 

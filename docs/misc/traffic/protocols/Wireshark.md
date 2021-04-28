@@ -50,7 +50,7 @@ There are many ways to do display filter:
 
 
 
-* Right clicking on a specific filed and apply selected as filter
+* Right-clicking on a specific filed and Apply Selected As Filter
 
 
    ![filter_select](./figure/filter_select.png)

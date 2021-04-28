@@ -34,11 +34,11 @@ VMDK files are essentially a virtual version of the physical hard disk. It can a
 
 
 - Analyze Windows / Linux / Mac OS X memory structure
-- Analyze process, memory data
-- Use the given challenge prompt to extract specific memory data for the specified process.=
+- Analyze processes, memory data
+- Use the given challenge prompt to extract specific memory data for the specified process.
 
 
-## CTF Examples
+## CTF Example
 
 
 ### 2018 Net Ding Cup - clip
@@ -46,7 +46,7 @@ VMDK files are essentially a virtual version of the physical hard disk. It can a
 
 > Download the challenge file [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/disk%26memory/2018-%E7%BD%91%E9%BC%8E%E6%9D%AF-clip/damaged.disk_bak)
 
-Through the 010 hex editor, you can see that the header of the file contains the word cloop. After searching, we found that this is an old linux-compressed device. The problem is that the device is damaged, so we will find a normal one.
+Through the `010 hex editor`, you can see that the header of the file contains the word cloop. After searching, we found that this is an old linux-compressed device. The problem is that the device is damaged, so we will find a normal one.
 
 To compress to get a cloop file, we can run the following command
 
@@ -55,7 +55,7 @@ To compress to get a cloop file, we can run the following command
 mkisofs -r test | create_compressed_fs - 65536 > test.cloop
 ```
 
-Refer [here](https://github.com/KlausKnopper/cloop) to compress the file, then we found errors within the file header in damaged file and fixed it.
+Refer [here](https://github.com/KlausKnopper/cloop) to compress the file, then we found errors within the file header in the damaged file and fixed it.
 
 
 Here is how to extract files from the cloop file:
@@ -98,5 +98,6 @@ clip-clip.png  clip-clop.png  clop-clip.png  clop-clop.jpg  flag.png
 ```
 
 
+The final step is to fix the flag.png header, where some bytes are missing.
 
-The final step is to fix the flag. That is, the few characters of the file header are missing.
+Flag: `flag{0b008070-eb72-4b99-abed-092075d72a40}`

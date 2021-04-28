@@ -10,8 +10,8 @@ The `ZIP` file is mainly composed of three parts, respectively
 
 Each compressed source file or directory in the compressed source file data area is a record:
 
-- `local file header` : file header is used to identify the beginning of the file. The file header identifier starts with a fixed value of `50 4B 03 04`
-- `file data` : file data records the data of the corresponding compressed file
+- `local file header`: file header is used to identify the beginning of the file. The file header identifier starts with a fixed value of `50 4B 03 04`
+- `file data`: file data records the data of the corresponding compressed file
 - `data descriptor`: data descriptor is used to identify the end of the file compression. This structure appears only when the 3rd bit of the generic tag field in the corresponding `local file header` is set to `1` immediately after the compressed file source data
 - `Central directory` central directory is used to record directory information. Each record in this data area corresponds to one data area in the compressed source file
 
@@ -52,7 +52,7 @@ See [Official Documentation](https://pkware.cachefly.net/webdocs/APPNOTE/APPNOTE
 ### Brute Force
 
 
-Here are two tools for brute forcing `zip`.
+Here are two tools for brute-forcing `zip`.
 
 
 - Windows (Paid) - [ARCHPR](https://www.elcomsoft.com/archpr.html)
@@ -73,7 +73,7 @@ Here are two tools for brute forcing `zip`.
 #### Basics
 
 
-`CRC` stands for cyclic redundancy check, and `CRC32` means that a check value of `32 bit` is generated. Since every bit of a `CRC32` value is used in the calculation, when one bit changes in the data block, a different `CRC32` value will be generated.
+`CRC` stands for cyclic redundancy check, and `CRC32` means that a check value of `32 bit` is generated. Since every bit of a `CRC32` value is used in the calculation, when one-bit changes in the data block, a different `CRC32` value will be generated.
 
 The `CRC32` checksum appears in many files such as a `png` file, as well as the `CRC32` checksum in `zip`. It is worth noting that `CRC32` in `zip` is the checksum value of the unencrypted files.
 
@@ -85,7 +85,7 @@ This has led to an attack method based on `CRC32`.
 - Encrypted password is very long
 
 
-Instead of brute forcing the password of zip file , we can brute force the contents of the plaintext file (usually strings) to obtain what we want.
+Instead of brute-forcing the password of zip file , we can brute force the contents of the plaintext file (usually strings) to obtain what we want.
 
 
 For example, we created a new `flag.txt` with the content `123` and encrypt it with the password `!QAZXSW@#EDCVFR$`.
@@ -160,7 +160,7 @@ You can use this script to brute force `CRC32` values and obtain the content of 
     Run this script in Python2
 
 ```python
-# unzip to file ./zippy dirctory
+# unzip to file ./zippy directory
 import binascii
 import base64
 import string
@@ -211,7 +211,7 @@ Flag: `flag{i_z1pp3d_a_zip_w1th_sum_zips}`
 #### Basics
 
 
-- an encrypted compressed file
+- An encrypted compressed file
 
 - A software to compress files, such as, `7z` or `zip`, to view compressed file details. In Linux, you can use `zipinfo -v` to view the details, such as encryption algorithms, etc
 
@@ -257,9 +257,9 @@ The flag is probably in the `key.txt` file.
 **Step 2, analyze the crack method**
 
 
-we found that the extracted file and the `Desktop.zip` contain the same `readme.txt` file, where it's size is greater than `12 bytes`. The `CRC32` value of extracted `readme.txt` file is the same as the one in `Desktop.zip`.
+We found that the extracted file and the `Desktop.zip` contain the same `readme.txt` file, where it's size is greater than `12 bytes`. The `CRC32` value of extracted `readme.txt` file is the same as the one in `Desktop.zip`.
 
-Base on those information, we can safely guess the extracted `readme.txt` file is the plaintext of encrypted `readme.txt` in `Desktop.zip`.
+Base on that information, we can safely guess the extracted `readme.txt` file is the plaintext of encrypted `readme.txt` in `Desktop.zip`.
 
 
 ![compare](./figure/compare.png)
@@ -299,7 +299,7 @@ The parameter options we used are as follows:
 
 ```
 -C: target file to be cracked or encrypted file
--c: name of ciphertext file with in encrypted file (readme.txt in Desktop.zip)
+-c: name of ciphertext file within the encrypted file (readme.txt in Desktop.zip)
 -P: compressed plaintext file
 -p: name of the plaintext file in the compressed plaintext file (that is, the location of readme.txt in readme.zip)
 -d: name of the output decrypted zip file
@@ -332,7 +332,7 @@ flag: `flag{7ip_Fi13_S0m3tim3s_s0_3a5y@}`
 #### Basics
 
 
-In the **central directory** in the `ZIP` format above, we emphasize there is `2 byte` for the general purpose bit flag. different bit have different meanings.
+In the **central directory** in the `ZIP` format above, we emphasize there is `2 byte` for the general-purpose bit flag. different bits have different meanings.
 
 ```
 Bit 0: If set, indicates that the file is encrypted.

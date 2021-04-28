@@ -24,8 +24,10 @@ encode -E hidden_text.txt -P pass svega.wav svega_stego.mp3
 decode -X -P pass svega_stego.mp3
 ```
 
+### CTF Example
 
-### ISCC-2016: Music Never Sleep
+
+#### ISCC-2016: Music Never Sleep
 
 
 After the initial observation, no flag was found with `strings` and the audio was normal. so steganography tool was likely used to hide the flag.
@@ -59,8 +61,10 @@ After decoding the encoded string from base64 and base32, we got the flag.
 
 Generally speaking, we want to observe the waveform pattern of an audio file to find something strange. We can use tools like Audacity or Adobe Audition to do that. After the waveform pattern, see if you can convert part of the waveform into binary strings (1s and 0s). See
 
+### CTF Example
 
-### ISCC-2017: Misc-04
+
+#### ISCC-2017: Misc-04
 
 
 In fact, the hidden information in this challenge is in the first part of the audio. If you don't listen carefully, you may mistake it for steganography.
@@ -88,8 +92,10 @@ Convert to ASCII. Note that one group of binary must be 7 bits because the lengt
 
 Spectrum stenography is hiding strings in the audio spectrum. One distant feature is that it often contains noisy or harsh sounds.
 
+### CTF Example
 
-### Su CTF Quals 2014: hear_with_your_eyes
+
+#### Su CTF Quals 2014: hear_with_your_eyes
 
 > Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/audio/SharifCTF2014-Hear%20with%20your%20Eyes/sound.wav)
 
@@ -121,7 +127,7 @@ Just use `slienteye`'s decode feature.
 ![](./figure/2.jpg)
 
 
-## Further Resources
+## Related CTFs and Resources
 
 
 - [LSB in Audio - DerbyCon CTF](https://ethackal.github.io/2015/10/05/derbycon-ctf-wav-steganography/)

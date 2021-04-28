@@ -1,4 +1,4 @@
-By the analyzing of the protocols, you can narrow down the where data exfiltration occurred.
+By analyzing the protocols, you can narrow down where data exfiltration occurred.
 
 Next, you need to know how to extract the data, which is an important part of network traffic analysis.
 
@@ -16,7 +16,7 @@ Next, you need to know how to extract the data, which is an important part of ne
 As a command-line version of wireshark, `tshark` is an efficient and fast. It can be used flexibly with other command-line tools (`awk`, `grep`) to quickly locate and extract data, thus eliminating the need for complicated scripting.
 
 
-### Common methods
+### Common Methods
 
 
 > `tshark -r **.pcap –Y ** -T fields –e ** | **** > data`
@@ -36,7 +36,7 @@ Passing the `-Y` option allows you to apply display filters (same filter as Wire
     You should then see the field name in the filter bar.
 
 
-## CTF Examples
+## CTF Example
 
 
 ### Google CTF 2016 - a cute stegosaurus
@@ -45,13 +45,13 @@ Passing the `-Y` option allows you to apply display filters (same filter as Wire
 
 The data was hidden very cleverly. There was an image, but it's a rabbit hole and caused a lot of confusion.
 
-For this challenge, you needs to be familiar with the `tcp` protocol.
+For this challenge, you need to be familiar with the `tcp` protocol.
 
 There are 6 bits of status code in the TCP message segment:
 
 - URG: Urgent bit. When URG=1, it means the packet is an urgent packet. It tells the system that there is urgent data in this segment and that it should be sent as soon as possible (equivalent to high-priority data)
-- ACK: Acknowledge bit. When ACK=1, it means the packet is an acknowledgment packet. When ACK=0, the packet is not a acknowledgment packet. The server acknowledges data is received by sending ACK=1 to the sender or client.
-- PSH: Push bit. When PSH=1, it means the other parity asks the packets in the buffer to be sent immediately, without waiting for the buffer to be full.
+- ACK: Acknowledge bit. When ACK=1, it means the packet is an acknowledgment packet. When ACK=0, the packet is not an acknowledgment packet. The server acknowledges data is received by sending ACK=1 to the sender or client.
+- PSH: Push bit. When PSH=1, it means the other party asks the packets in the buffer to be sent immediately, without waiting for the buffer to be full.
 - RST: Reset bit. When RST=1, it means to aborts a connection due to errors, then the connection must be released and re-established.
 - SYN: Synchronous bit. When SYN=1, it means the packet is making an initiation request to connect. Usually, the packet with the SYN flag means the client is trying to make a connection to the server.
 - FIN: Final bit. When FIN=1, it means to release or close a connection.
@@ -60,7 +60,7 @@ There are 6 bits of status code in the TCP message segment:
 ![urg](figure/urg.png)
 
 
-Extract the `tcp.urg` (Urgent pointer in the image above) with tshark, then remove the `0` field and replace the newline to `,`. Use Python to convert the numbers into ASCII to get the flag.
+Extract the `tcp.urg` (Urgent pointer in the image above) with tshark, then remove the `0` field and replace the newline with `,`. Use Python to convert the numbers into ASCII to get the flag.
 
 
 ```shell

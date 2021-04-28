@@ -31,11 +31,11 @@ Four handshakes:
 
 1. 4 Ways handshake starts at the AP, it then generates a random string (ANonce) and sends it to the requester.
 2. The requester also generates its own random SNonce, and then uses these two Nonces and PMK to generate the PTK. The requester replies message 2 to the authenticator and a MIC (message integrity code) as the verification of the PMK.
-3. The authenticator sends information from requester’s message 2 back to requester, once it’s verified, it will generate GTK if needed. Then, sends it as message 3.
+3. The authenticator sends information from the requester’s message 2 back to the requester, once it’s verified, it will generate GTK if needed. Then, sends it as message 3.
 4. The requester receives message 3, verifies the MIC, installs the key, sends a message 4, and a confirmation message. The verifier receives message 4, verifies the MIC, installs the same key.
 
 
-### CTF Examples
+### CTF Example
 
 
 #### Experiment Lab - shipin

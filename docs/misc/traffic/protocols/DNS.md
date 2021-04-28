@@ -10,7 +10,7 @@ Message format:
 +----------------------------------------------------------+
 | Message Header                                           |
 +----------------------------------------------------------+
-| Question (record of query to the server)                 |
+| Question (record of a query to the server)                 |
 +----------------------------------------------------------+
 | Answer (record of server reply)                          |
 +----------------------------------------------------------+
@@ -76,7 +76,7 @@ Every question selection format:
 
 
 
-### CTF Examples
+### CTF Example
 
 
 #### BSides San Francisco CTF 2017 - dnscap

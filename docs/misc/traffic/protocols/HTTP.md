@@ -1,65 +1,52 @@
 ### HTTP
 
 
-
-`HTTP` (Hyper Text Transfer Protocol), also known as Hypertext Transfer Protocol, is an application layer protocol for distributed, collaborative, and hypermedia information systems. `HTTP` is the basis for data communication on the World Wide Web.
-
-
-### Example
+HTTP (Hyper Text Transfer Protocol) is an application layer protocol for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
 
 
-&gt; Topic: Jiangsu Province Navigator Cup - 2017: hack
+### CTF Example
 
 
-The overall observation can be drawn:
+#### Jiangsu Province Navigator Cup - 2017: hack
 
 
-- `HTTP` for the main
-- `102.168.173.134` for the main
-- no attachments exist
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/cap/%E6%B1%9F%E8%8B%8F%E7%9C%81%E9%A2%86%E8%88%AA%E6%9D%AF-2017-hack/hack.pcap)
+
+These observations can be drawn:
+
+- `HTTP` is used
+- `102.168.173.134` is the client
+- No attachments exist
 
 
 ![linghang_hack](./figure/linghang_hack.png)
 
 
-From this picture, it can be basically judged that this is a traffic packet generated during the `sql injection-blind&quot;.
+From this picture, we can see blind SQL injection is in traffic packets.
 
 
-At this point, you can basically determine the direction of the flag, extract all the urls, use the `python` helper to get the flag
+At this point, you can determine the direction to obtain the flag: extracting all the URLs, then use `Python`.
 
+- Extract URLs: `tshark -r hack.pcap -T fields  -e http.request.full_uri|tr -s '\n' | grep flag > log`
 
-- 提取url: `tshark -r hack.pcap -T fields  -e http.request.full_uri|tr -s '\n'|grep flag > log`
-
-- Get blind results
+- Parse blind SQL injection requests
 
 
 ```python
-
 import re
 
-
-
 with open('log') as f:
-
     tmp = f.read()
-
     flag = ''
-
     data = re.findall(r'=(\d*)%23',tmp)
-
-    data = [int(i) for i in data]
+    data = [(int(i)) for i in data]
 
     for i,num in enumerate(data):
-
         try:
-
-            if num > data[i+1]:
-
-flag + = chr (num)
+            if num > data[i+1]:    
+                flag += chr(num)
         except Exception:
-
             pass
 
-    print flag
-
+    print(flag)
 ```

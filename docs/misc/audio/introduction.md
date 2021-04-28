@@ -1,162 +1,134 @@
-The audio-related CTF topics mainly use steganographic strategies, which are mainly divided into MP3 steganography, LSB steganography, waveform steganography, spectrum steganography, and so on.
+The audio-related CTF challenges mainly use steganography techniques, involving MP3, LSB, waveform, spectrum steganography.
 
 
-## Common means
+## Common Method
 
 
-Information that can be found through `binwalk` and `strings` is not detailed.
+Finding and extracting information using  `binwalk` and `strings` commands, details are not converted.
 
 
-## MP3 steganography
+## MP3 Steganography
 
 
-### Principle
+### Basics
 
 
-MP3 steganography is mainly using the [Mp3Stego] (http://www.petitcolas.net/steganography/mp3stego/) tool for steganography. The basic introduction and usage are as follows:
+MP3 steganography is using the [MP3stego](http://www.petitcolas.net/steganography/mp3stego/) tool to hide information. The basic introduction and usage are as follows:
 
 
 > MP3Stego will hide information in MP3 files during the compression process. The data is first compressed, encrypted and then hidden in the MP3 bit stream.
 
 
-
 ```shell
-
 encode -E hidden_text.txt -P pass svega.wav svega_stego.mp3
-
 decode -X -P pass svega_stego.mp3
-
 ```
 
+### CTF Example
 
 
-### Example
+#### ISCC-2016: Music Never Sleep
 
 
-> ISCC-2016: Music Never Sleep
-
-
-
-After the initial observation, no one was found by `strings`, and there was no abnormal guess in listening to the audio. The steganographic software was used to hide the data.
+After the initial observation, no flag was found with `strings` and the audio was normal. so steganography tool was likely used to hide the flag.
 
 
 ![](./figure/1.jpg)
 
 
-
-After getting the password, use `Mp3Stego` to decrypt it.
+After decoding using `Mp3Stego` with the password found earlier.
 
 
 ```shell
-
 decode.exe -X ISCC2016.mp3 -P bfsiscc2016
-
 ```
 
 
+We got the file `iscc2016.mp3.txt`:
 
-Get the file `iscc2016.mp3.txt`:
 ```
-
 Flag is SkYzWEk0M1JOWlNHWTJTRktKUkdJTVpXRzVSV0U2REdHTVpHT1pZPQ== ???
-
 ```
 
-
-
-Get flag after Base64 &amp;&amp; Base32.
+After decoding the encoded string from base64 and base32, we got the flag.
 
 
 ## Waveform
 
 
-### Principle
+### Basics
+--..----.----.
+
+Generally speaking, we want to observe the waveform pattern of an audio file to find something strange. We can use tools like Audacity or Adobe Audition to do that. After the waveform pattern, see if you can convert part of the waveform into binary strings (1s and 0s). See
+
+### CTF Example
 
 
-Generally speaking, in the direction of the waveform, after observing the abnormality, the relevant software (Audacity, Adobe Audition, etc.) is used to observe the waveform law, and the waveform is further converted into a 01 string, etc., thereby extracting and converting the final flag.
+#### ISCC-2017: Misc-04
 
 
-### Example
+In fact, the hidden information in this challenge is in the first part of the audio. If you don't listen carefully, you may mistake it for steganography.
 
-
-> ISCC-2017: Misc-04
-
-
-
-In fact, the hidden information in this question is in the first part of the audio. If you don&#39;t listen carefully, you may mistake it for steganography.
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/audio/ISCC-2017-Disco.wav)
 
 
 ![](./figure/3.png)
 
 
-
-The high is 1 low and 0 is converted to get the `01` string.
-
+The high is 1, and the low is 0, representing a binary string (1s and 0s).
 
 ```
-
 110011011011001100001110011111110111010111011000010101110101010110011011101011101110110111011110011111101
-
 ```
 
-
-
-Convert to ASCII, decrypt the Morse password and get the flag.
-
-
-!!! note
-
-Some of the more complicated ones may first perform a series of processing on the audio, such as filtering. For example [JarvisOJ - Voice of God Writeup] (https://www.40huo.cn/blog/jarvisoj-misc-writeup.html)
+Convert to ASCII. Note that one group of binary must be 7 bits because the length of the binary string is 105, it can't divide into 8 bits evenly (105 mod 8 is 1), however, it does divide into 7 (105 mod 7 is 0).
 
 
 ## Spectrum
 
 
-### Principle
+### Basics
 
 
-Spectral steganography in audio hides strings in the spectrum. Such audio usually has a more pronounced feature that sounds a bit murmur or harsh.
+Spectrum stenography is hiding strings in the audio spectrum. One distant feature is that it often contains noisy or harsh sounds.
+
+### CTF Example
 
 
-### Example
+#### Su CTF Quals 2014: hear_with_your_eyes
 
+> Download the challenge [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/audio/SharifCTF2014-Hear%20with%20your%20Eyes/sound.wav)
 
-> Su-ctf-quals-2014:hear_with_your_eyes
-
+Open the audio in `Audacity`and view the spectrogram.
 
 
 ![](./figure/4.png)
 
 
-
-## LSB audio steganography
-
-
-### Principle
+## LSB Audio Steganography
 
 
-Similar to the LSB steganography in image steganography, there is also a corresponding LSB steganography in the audio. The [Silenteye] (http://silenteye.v1kings.io/) tool can be used mainly as follows:
+### Basics
 
+
+Similar to LSB in image steganography, you can also perform LSB steganography in audio. we can use the SilentEye tool to solve audio LSB challenges.
+
+Description of SilentEye:
 
 > SilentEye is a cross-platform application design for an easy use of steganography, in this case hiding messages into pictures or sounds. It provides a pretty nice interface and an easy integration of new steganography algorithm and cryptography process by using a plug-ins system.
 
 
-
-### Example
-
-
-&gt; 2015 Guangdong Strong Net Cup - Little Apple
+### 2015 GDQWB: Little Apple
 
 
-Just use `slienteye`.
+Just use `slienteye`'s decode feature.
 
 
 ![](./figure/2.jpg)
 
 
+## Related CTFs and Resources
 
-## Extension
 
-
-- [LSB in Audio] (https://ethackal.github.io/2015/10/05/derbycon-ctf-wav-steganography/)
-- [Stealth Summary] (http://bobao.360.cn/learning/detail/243.html)
+- [LSB in Audio - DerbyCon CTF](https://ethackal.github.io/2015/10/05/derbycon-ctf-wav-steganography/)
+- [Manchester code - Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)

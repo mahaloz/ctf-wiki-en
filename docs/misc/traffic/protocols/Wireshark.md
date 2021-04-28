@@ -1,153 +1,115 @@
-## Wireshark Introduction to Common Functions
+## Wireshark Common Features
 
 
-### Display filter
+### Display Filter
 
 
-Display filters can use many different parameters as matching criteria, such as IP address, protocol, port number, and parameters of some protocol headers. In addition, users use some conditional tools and concatenation operators to create more complex expressions. Users can combine different expressions to make the software display a more precise range of packets. All packets displayed in the packet list panel can be filtered with the fields contained in the packet.
+Display filters can use several different parameters as matching criteria, such as IP address, protocol, port number, and some protocol header’s parameters. In addition, users use some conditionals and concatenation operators to create more complex expressions. Users can combine different expressions to filter out a precise range of packets. All packets displayed can be filtered by bytes within the packets.
 
+
+A display filter follows this structure:
 
 ```
-
 [not] Expression [and|or] [not] Expression
-
 ```
 
 
 
-Often use a variety of operators
+Often used operators:
 
 
 | Operator | Description |
-| ------ | --------- |
-
-| == | equals |
-| != | Not equal |
-| &gt; | Greater than |
-| &lt; | Less than |
-| &gt;= | Greater than or equal to |
-| &lt;= | Less than or equal to |
-| with | and , &amp;&amp; |
-| 或     | or , \|\| |
-
-| non| ! , not |
+| -------- | ----------- |
+| ==       | Equal |
+| !=       | Not Equal |
+| >        | Greater Than |
+| <        | Less Than |
+| >=       | Greater Than or Equal To |
+| <=       | Less Than or Equal To |
+| &&       | AND |
+| \|\|     | OR |
+| !       | NOT |
 
 
-#### Configuration Method
+#### Filter Methods
 
+There are many ways to do display filter:
 
-By means of the filter window
+* Display filter expression
+
+    `Analyze --> Display Filter Expression`
 
 
    ![filter_window](./figure/filter_window.png)
 
 
-
-2. With the help bar of the toolbar
+* Display filter toolbar
 
 
    ![filter_tool](./figure/filter_tool.png)
 
 
 
-3. Specify a property value for the packet as a filter
+* Right-clicking on a specific filed and Apply Selected As Filter
 
 
    ![filter_select](./figure/filter_select.png)
 
 
-
 !!! note
 
-Complex filtering commands can be filtered directly in the third way.
+You can obtain the complex filtering expression with this method.
 
 
-### Information Statistics
+### Statistics Information
 
 
-#### Protocol History
+#### Protocol Hierarchy
 
 
-The reality of this window is to capture the tree branch of all the protocols contained in the file.
+`Statistics --> Protocol Hierarchy`
+
+A hierarchy of all the protocols contained in the file.
 
 
 ![pro_his](./figure/pro_his.png)
 
 
-
-Included fields
-
-
-| Name | Meaning |
-| ------------- | ---------------------------------------------- |
-
-| Protocol: | Protocol Name|
-| % Packets: | The number of packages containing this protocol is the ratio of all packets in the capture file |
-| Packets: | Number of packages containing this protocol |
-| Bytes: | Number of bytes containing this protocol |
-| Mbit/s: | Protocol Bandwidth in Capture Time |
-End Packets: | Number of packets in the protocol (as the highest protocol layer in the file) |
-| End Bytes: | The number of bytes in the protocol (as the highest protocol layer in the file) |
-End Mbit/s: | Protocol bandwidth during capture time (as the highest protocol layer in the file) |
+#### Conversations
 
 
-This feature can provide a basis for analyzing the main directions of the data packet.
+`Statistics --> Conversations`
 
-
-#### Conversation(Dialog)
-
-
-All traffic between IPs that occur at a particular endpoint.
+All traffic occurring between IP addresses of a particular endpoint.
 
 
 ![Conversation](./figure/conversation.png)
 
 
-
 !!! note
 
-- View the IP address that sends and receives a large number of data streams. If it&#39;s the server you know (you remember the server&#39;s address or address range), then the problem is solved; but it&#39;s also possible that just one device is scanning the network, or just a PC that generates too much data.
-- View the scan pattern. This may be a normal scan, such as SNMP software sending ping messages to find the network, but usually scanning is not a good thing
+- Check the IP address that sent or received many data streams. If you know that server, then the problem is solved. However, it’s possible that is it just some device scanning the network or generating a large amount of data.
+
+- Check for scan patterns. If a device made one scan, then that’s likely normal. For example, SNMP software sent a ping message to find the network. However, if there are many scans, then something fishy is happening.
 
 
-#### EndPoints (Endpoints)
+#### Endpoints
 
 
-This tool lists statistics on all endpoints found by Wireshark.
+`Statistics --> Endpoints`
+
+List all endpoints found by Wireshark.
 
 
 ![points](./figure/points.png)
 
 
-
-#### HTTP
-
+#### HTTP - Packet Counter
 
 
-- Packet Counter
+`Statistics --> HTTP --> Packet Counter`
+
+Count HTTP packets.
 
 
-
-  ![pac_count](./figure/pac_count.png)
-
-
-
-**reference**
-
-
-- http://blog.jobbole.com/73482/
-
-- http://www.vuln.cn/2103
-
-
-
-### Information Statistics Advanced Edition
-
-
-Quickly grasp the overall characteristics of the traffic package based on the overall information, and figure out what to do?**
-
-
-ALL
-
-
-## 
+![pac_count](./figure/pac_count.png)

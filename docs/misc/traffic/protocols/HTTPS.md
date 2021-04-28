@@ -2,47 +2,35 @@
 
 
 
-`HTTPs = HTTP + SSL / TLS`. The information transmission between the server and the client is encrypted by TLS, so the transmitted data is encrypted data.
+`HTTPs = HTTP + SSL / TLS`. In HTTPS, the communication protocol is encrypted using Transport Layer Security (TLS) or, formerly, Secure Sockets Layer (SSL). The protocol is therefore also referred to as HTTP over TLS, or HTTP over SSL.
 
 
-- [wireshark分析HTTPs](http://www.freebuf.com/articles/system/37900.html)
+### CTF Example
 
 
-
-### Example
-
-
-&gt; Title: hack-dat-kiwi-ctf-2015: ssl-sniff-2
+#### hack-dat-kiwi-ctf-2015: ssl-sniff-2
 
 
-Open the traffic packet and find that it is `SSL` encrypted data. Import the `server.key.insecure` provided by the topic to decrypt it.
+> Download the challenge files [here](https://github.com/ctf-wiki/ctf-challenges/tree/master/misc/cap/hack-dat-kiwi-ctf-2015-ssl-sniff-2)
+
+Open the PCAP file in Wireshark, you will find `TLS` encrypted data.
+
+We are given the `server.key.insecure` key, so we need to import that key in order to decrypt the packets.
 
 
-```xml
+There are two ways to get to the `TLS` Preferences page:
 
-GET /key.html HTTP/1.1
+1. `Edit --> Preferences --> Protocols --> TLS`
 
-Host: localhost
-
-
-
-HTTP/1.1 200 OK
-
-Date: Fri, 20 Nov 2015 14:16:24 GMT
-Server: Apache/2.4.7 (Ubuntu)
-
-Last-Modified: Fri, 20 Nov 2015 14:15:54 GMT
-
-ETag: "1c-524f98378d4e1"
-
-Accept-Ranges: bytes
-
-Content-Length: 28
-
-Content-Type: text/html
+2. `Right click on a TSL packet --> Transport Layer Security --> Open Transport Layer Security preferences`
 
 
+After you get to the `TLS` Preferences page, click on `Edit...` next to the RSA keys list.
 
-The key is 39u7v25n1jxkl123
+Then, add the `server.key.insecure` file to `Key File` and hit `OK`.
 
-```
+![](./figure/import-tls-key.png)
+
+Now, you can see the decrypted packets. You will find the flag in the HTTP packets.
+
+![](./figure/https-decrypted.png)

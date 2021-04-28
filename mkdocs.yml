@@ -25,16 +25,17 @@ nav:
     - Misc:
         - Miscellaneous Introduction: misc/introduction.md
         - Information Gathering Method: misc/recon.md
-        - Code Analysis:
-            - Commonly Used Coding in the Communication Field: misc/encode/communication.md
-            - Computer Related Coding: misc/encode/computer.md
-            - Commonly Used Encodings in the Real World: misc/encode/modern.md
-        - Forensic Steganography: misc/prefix.md
+        - Encoding Analysis:
+            - Encoding Used in Communication: misc/encode/communication.md
+            - Encoding Used in Computing: misc/encode/computer.md
+            - Encoding Used in the Real World: misc/encode/modern.md
+        - Forensic and Steganography Prerequisite: misc/prereq.md
         - Image Analysis:
             - Introduction to Image Analysis: misc/picture/introduction.md
             - PNG: misc/picture/png.md
             - JPG: misc/picture/jpg.md
             - GIF: misc/picture/gif.md
+        - Audio Steganography: misc/audio/introduction.md
         - Traffic Packet Analysis:
             - Introduction to Traffic Packet Analysis: misc/traffic/introduction.md
             - PCAP File Repairing: misc/traffic/fix.md
@@ -51,12 +52,8 @@ nav:
         - Compressed Package Analysis:
             - ZIP Format: misc/archive/zip.md
             - RAR Format: misc/archive/rar.md
-        - Audio Steganography: misc/audio/introduction.md
         - Disk and Memory Analysis:
             - Introduction: misc/disk-memory/introduction.md
-            - Title: misc/disk-memory/problem.md
-        - Other:
-            - pyc File: misc/other/pyc.md
     - Crypto:
         - Introduction to Cryptography: crypto/introduction.md
         - Basic Mathematics:

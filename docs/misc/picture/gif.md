@@ -70,6 +70,8 @@ For more details, see [what is in a GIF](http://giflib.sourceforge.net/whatsinag
 ### WDCTF-2017:3-2
 
 
+> Download the challenge file [here](https://github.com/ctf-wiki/ctf-challenges/blob/master/misc/picture/gif/cake.gif)
+
 The animation in GIFs is made up of a sequence of frames, each frame can be an image that contains hidden information.
 
 You can use the `convert` command to separate each frame in the GIF file.

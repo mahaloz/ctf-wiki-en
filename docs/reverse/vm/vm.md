@@ -56,7 +56,7 @@ UINT GetDlgItemTextA(
 The obtained input string will be saved in `lpString`. Then we can open IDA to find the place with the cross reference `GetDlgItemTextA()`.
 
 
-`` `asm
+```asm
 .text:00401142                 push    0Ch             ; cchMax
 
 .text: 00401144 push offset inputName; lpString
@@ -146,7 +146,7 @@ __debugbreak ();
 The first is the `strlength()` function. The function uses `cld; repne scasb; not ecx; dec ecx` to calculate the string length and save the result in `ecx`. The assembly basics are not introduced. So we Rename the function to `strlength`
 
 
-`` `asm
+```asm
 .text:004011C2 arg_0           = dword ptr  8
 
 .text:004011C2
@@ -208,7 +208,7 @@ When the lengths of `inputName` and `inputKey` are not less than 7, then you can
 The corresponding python code is
 
 
-``` python
+```python
 
 def obfuscate(username):
 
@@ -229,7 +229,7 @@ After the function is assigned to some variables (these are not important, just 
 ## Registering SEH
 
 
-`` `asm
+```asm
 .text:004012B5                 push    offset seh_handler
 
 .text:004012BA                 push    large dword ptr fs:0
@@ -247,7 +247,7 @@ After the function is assigned to some variables (these are not important, just 
 `initVM` is done by some virtual machine initialization before starting (in fact, it is the initial value of some registers and related parts), we will discuss later. Here we are concerned about the SEH part. Here is registered a SEH handle, exception I renamed the handler to `seh_handler` and then manually triggered the exception using `int 3`. In the `seh_handler` location, IDA did not correctly identify the corresponding code.
 
 
-``` 
+```asm 
 
 .text:004012D7 seh_handler     db 64h                  ; DATA XREF: process_input+7Do
 
@@ -279,7 +279,7 @@ We can click the corresponding position and press the `c` key to convert the dat
 As follows, in the `seh_handler` position, a similar method is used to register an exception handler located at `401306h`, and a `x0 ecx, ecx; div ecx` is manually triggered by a `divide 0 exception`. and at `loc_401301 `Location, this is an anti-debugging trick, `jmp loc_401301+2` will cause `EIP` to turn to the middle of an instruction, making it impossible to continue debugging. So we can remove the `nop` of the `00401301~00401306` part, then `00401306`Location creates a new function `seh_handler2`
 
 
-```
+```asm
 
 seh_handler:                            ; DATA XREF: process_input+7Do
 
@@ -339,7 +339,7 @@ Similarly, `401330h` is renamed to `seh_handler3`, and `40135Eh` is the last reg
 We created a `vm_main` function (you need to create a function after renaming, IDA can recognize it), then press `F5` to prompt the failure. The reason for the failure is due to the stack imbalance. So we can click on the IDA menu item. `Options-&gt;General` check the `stack pointer` on the right side. This will display the corresponding stack pointer.
 
 
-```
+```asm
 
 .text:004017F2 000                 jmp     vm_main
 
@@ -386,7 +386,7 @@ We come to the bottom to show the unbalanced position. The top `jmp vm_main` ind
 It&#39;s also very simple. The `0040180A` position has been stack balanced (000), so we only need to change the `leave` to `retn`.
 
 
-```
+```asm
 
 .text:0040180A     locret_40180A:                          ; CODE XREF: vm_main+492j
 
